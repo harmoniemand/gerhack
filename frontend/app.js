@@ -1,6 +1,7 @@
 
 angular.module('robotApp', [
-    'btford.socket-io'
+    'btford.socket-io',
+    'ngMaterial'
 ]);
 
 angular.element(document).ready(function () {
