@@ -9,7 +9,7 @@ var io = require('socket.io')(http);
 var newCommand;
 var record = false;
 var commands = {};
-var currentState = [0,0,0,0,0,0,0];
+var currentState = {};
 var limits = [0,-1,180,300,100,300,-1];
 var maxSpeed = [0,5,4,5,1,4,4];
 var com = "";
@@ -26,9 +26,12 @@ io.on('connection', function (socket) {
 app.use('/', express.static('../frontend'));
 
 app.post('/run/:robot/:command', function (req, res) {
+    if (!currentState.hasOwnProperty(req.params.robot)) {
+        currentState[req.params.robot] = [0,0,0,0,0,0,0];
+    }
     var coms = commands[req.params.command].commands;
     var start = commands[req.params.command].start;
-    var deltas = [0, start[1] - currentState[1], start[2] - currentState[2], start[3] - currentState[3], start[4] - currentState[4], start[5] - currentState[5], start[6] - currentState[6]];
+    var deltas = [0, start[1] - currentState[req.params.robot][1], start[2] - currentState[req.params.robot][2], start[3] - currentState[req.params.robot][3], start[4] - currentState[req.params.robot][4], start[5] - currentState[req.params.robot][5], start[6] - currentState[req.params.robot][6]];
     for (var i = 1; i < deltas.length; i++) {
         if (deltas[i] !== 0) {
             var object = {
@@ -65,7 +68,7 @@ app.post('/run/:robot/:command', function (req, res) {
     var tests = [];
     for (var i = 0; i < coms.length; i++) {
         var com = coms[i];
-        com.name = req.params.robot;
+        com.Name = req.params.robot;
         tests.push(JSON.parse(JSON.stringify(com)));
         io.emit('move', com);
     }
@@ -73,6 +76,10 @@ app.post('/run/:robot/:command', function (req, res) {
 });
 
 app.post('/:robot/:axis/:degree', function (req, res) {
+    if (!currentState.hasOwnProperty(req.params.robot)) {
+        currentState[req.params.robot] = [0,0,0,0,0,0,0];
+    }
+    var cs = currentState[req.params.robot].slice(0);
     var robot = req.params.robot;
     var axis = req.params.axis;
     var degree = parseFloat(req.params.degree);
@@ -91,12 +98,12 @@ app.post('/:robot/:axis/:degree', function (req, res) {
             A6: 0
         }
     };
-    if (Math.abs(currentState[axis] + degree) > limits[axis] && limits[axis] !== -1) {
-        degree = currentState[axis] - degree;
-        currentState[axis] = limits[currentState.axis];
+    if (Math.abs(currentState[req.params.robot][axis] + degree) > limits[axis] && limits[axis] !== -1) {
+        degree = currentState[req.params.robot][axis] - degree;
+        currentState[req.params.robot][axis] = limits[currentState[req.params.robot].axis];
     } else {
-        currentState[axis] += parseFloat(degree);
-        currentState[axis] = currentState[axis] % 360;
+        currentState[req.params.robot][axis] += parseFloat(degree);
+        currentState[req.params.robot][axis] = currentState[req.params.robot][axis] % 360;
     }
     var speed = maxSpeed[axis];
     var minSpeed = 1000;
@@ -116,6 +123,9 @@ app.post('/:robot/:axis/:degree', function (req, res) {
 
     if (record) {
         newCommand.push(object);
+        if (start == null) {
+            start = cs;
+        }
     }
     io.emit('move', object);
     res.send("ok");
@@ -125,7 +135,7 @@ app.post('/record/:command', function (req, res) {
     newCommand = [];
     record = true;
     com = req.params.command;
-    start = currentState.slice(0);
+    start = null;
     res.send("ok");
 });
 
@@ -219,6 +229,10 @@ app.post('/end', function (req, res) {
 
 app.get('/commands', function (req, res) {
     res.json(commands);
+});
+
+app.get('/states', function (req, res) {
+    res.json(currentState);
 });
 
 http.listen(3000, function () {
