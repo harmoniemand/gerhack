@@ -12,9 +12,11 @@ io.on('connection', function (socket) {
     });
 });
 
+app.get('/', function (req, res) {
+    res.render('../frontend/');
+});
 
 app.post('/:robot/:axis/:degree', function (req, res) {
-    console.log(req.params);
     io.emit('move', {
         Name: "robot",
         RobInMove: true,
