@@ -1,1 +1,0 @@
-kleine Animation die einen Roboter darstellen soll.
