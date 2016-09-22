@@ -1,0 +1,3090 @@
+{
+    "RobotName": "ROB_B40_T01",
+    "Serial": "503870",
+    "PNDeviceName": "503870",
+    "LocationContinentCode": "Asia",
+    "LocationCountryCode": "AF",
+    "LocationStateCode": "State",
+    "LocationAddress": "Address",
+    "LocationArea": "Area",
+    "LocationFloor": "Floor",
+    "LocationPillar": "Pillar",
+    "LocationProductionLine": "ProductionLine",
+    "LocationWorkCell": "WorkCell",
+    "LocationWorldCoordinates": "WorldCoordinates",
+    "LocationManufacturingArea": "ManufacturingArea",
+    "LocationAssemblyGroup": "AssemblyGroup",
+    "LocationTechnicalStation": "TechnicalStation",
+    "LocationSafetyArea": "SafetyArea",
+    "LocationPLCArea": "PLCArea",
+    "LocationEmergencyStopArea": "EmergencyStopArea",
+    "LocationComment": "Comment",
+    "OrganisationEnterprise": "Enterprise",
+    "OrganisationOperator": "Operator",
+    "OrganisationMaintainer": "Maintainer",
+    "OrganisationProduct": "Product",
+    "OrganisationComment": "Comment",
+    "InventoryInventoryNumber": "InventoryNumber",
+    "InventoryCostCenter": "CostCenter",
+    "InventorySAPFunctionalLocation": "SAPFunctionalLocation",
+    "InventorySAPEquipment": "SAPEquipment",
+    "InventoryComment": "Comment",
+    "GenericDataType": "Type",
+    "GenericDataUUID": "UUID",
+    "GenericDataDevice": "Device",
+    "GenericDataName": "Name",
+    "GenericDataComment": "Comment",
+    "Ip": [
+        "172.168.0.90",
+        "172.168.0.90"
+    ],
+    "SystemVersion": "V8.3.23 HF1",
+    "Options": {
+        "Key": [
+            {
+                "@Name": "CustomView",
+                "Value": [
+                    {
+                        "@Name": "Name",
+                        "@Data": "CustomView"
+                    },
+                    {
+                        "@Name": "Version",
+                        "@Data": "V1.0.1"
+                    },
+                    {
+                        "@Name": "Build",
+                        "@Data": "129"
+                    },
+                    {
+                        "@Name": "IntegratedInstallation",
+                        "@Data": "1"
+                    },
+                    {
+                        "@Name": "DLL",
+                        "@Data": "C:\\KRC_Option\\CustomView\\KrcTech.dll"
+                    }
+                ],
+                "Key": {
+                    "@Name": "Dependencies"
+                }
+            },
+            {
+                "@Name": "DAI_BASEPROJECT",
+                "Value": [
+                    {
+                        "@Name": "Name",
+                        "@Data": "DAI_BASEPROJECT"
+                    },
+                    {
+                        "@Name": "Version",
+                        "@Data": "V83.2.1"
+                    },
+                    {
+                        "@Name": "Build",
+                        "@Data": "6"
+                    },
+                    {
+                        "@Name": "IntegratedInstallation",
+                        "@Data": "1"
+                    },
+                    {
+                        "@Name": "DLL",
+                        "@Data": "C:\\KRC_Option\\DAI_BASEPROJECT\\KrcTech.dll"
+                    }
+                ],
+                "Key": {
+                    "@Name": "Dependencies",
+                    "Value": [
+                        {
+                            "@Name": "SafeOpCrc",
+                            "@Data": "1"
+                        },
+                        {
+                            "@Name": "SafeOperation",
+                            "@Data": "1"
+                        },
+                        {
+                            "@Name": "Profinet KRC-Nexxt",
+                            "@Data": "1"
+                        },
+                        {
+                            "@Name": "UserTech",
+                            "@Data": "1"
+                        },
+                        {
+                            "@Name": "Gripper-&SpotTech",
+                            "@Data": "1"
+                        },
+                        {
+                            "@Name": "RobotSetupManager",
+                            "@Data": "1"
+                        },
+                        {
+                            "@Name": "KRmsgNET",
+                            "@Data": "1"
+                        },
+                        {
+                            "@Name": "DiagnoseSafety",
+                            "@Data": "1"
+                        },
+                        {
+                            "@Name": "LoadDataDetermination",
+                            "@Data": "1"
+                        },
+                        {
+                            "@Name": "CustomView",
+                            "@Data": "1"
+                        }
+                    ]
+                }
+            },
+            {
+                "@Name": "DiagnoseSafety",
+                "Value": [
+                    {
+                        "@Name": "Name",
+                        "@Data": "DiagnoseSafety"
+                    },
+                    {
+                        "@Name": "Version",
+                        "@Data": "V2.0.2"
+                    },
+                    {
+                        "@Name": "Build",
+                        "@Data": "83"
+                    },
+                    {
+                        "@Name": "IntegratedInstallation",
+                        "@Data": "1"
+                    },
+                    {
+                        "@Name": "DLL",
+                        "@Data": "C:\\KRC_Option\\DiagnoseSafety\\KrcTech.dll"
+                    }
+                ],
+                "Key": {
+                    "@Name": "Dependencies"
+                }
+            },
+            {
+                "@Name": "Gripper-&SpotTech",
+                "Value": [
+                    {
+                        "@Name": "Name",
+                        "@Data": "Gripper-&SpotTech"
+                    },
+                    {
+                        "@Name": "Version",
+                        "@Data": "V3.2.2"
+                    },
+                    {
+                        "@Name": "Build",
+                        "@Data": "76"
+                    },
+                    {
+                        "@Name": "IntegratedInstallation",
+                        "@Data": "1"
+                    },
+                    {
+                        "@Name": "DLL",
+                        "@Data": "C:\\KRC_Option\\Gripper-&SpotTech\\KrcTech.dll"
+                    }
+                ],
+                "Key": {
+                    "@Name": "Dependencies"
+                }
+            },
+            {
+                "@Name": "KFD",
+                "Value": [
+                    {
+                        "@Name": "UserTech",
+                        "@Data": "%InstallationDir%\\TP\\UserTech\\UserTechResources"
+                    },
+                    {
+                        "@Name": "KUKATPUSER",
+                        "@Data": "%InstallationDir%\\TP\\UserTech\\Template"
+                    },
+                    {
+                        "@Name": "DAI_BASEPROJECT",
+                        "@Data": "%InstallationDir%\\TP\\DAI_BASEPROJECT\\UserTechResources"
+                    }
+                ]
+            },
+            {
+                "@Name": "KRmsgNET",
+                "Value": [
+                    {
+                        "@Name": "Name",
+                        "@Data": "KRmsgNET"
+                    },
+                    {
+                        "@Name": "Version",
+                        "@Data": "V4.0.1"
+                    },
+                    {
+                        "@Name": "Build",
+                        "@Data": "111"
+                    },
+                    {
+                        "@Name": "IntegratedInstallation",
+                        "@Data": "1"
+                    },
+                    {
+                        "@Name": "DLL",
+                        "@Data": "C:\\KRC_Option\\KRmsgNET\\KrcTech.dll"
+                    }
+                ],
+                "Key": {
+                    "@Name": "Dependencies"
+                }
+            },
+            {
+                "@Name": "LoadDataDetermination",
+                "Value": [
+                    {
+                        "@Name": "DLL",
+                        "@Data": "C:\\KRC_Option\\LoadDataDetermination\\KrcTech.dll"
+                    },
+                    {
+                        "@Name": "OperationMode",
+                        "@Data": "4080"
+                    },
+                    {
+                        "@Name": "RobLoadDataPath",
+                        "@Data": "C:\\KRC\\TP\\LoadDataDetermination\\Data\\KUKA_Load.mdb"
+                    },
+                    {
+                        "@Name": "KS_Path",
+                        "@Data": "C:\\KRC\\Roboter\\Ir_spec\\l_ident"
+                    },
+                    {
+                        "@Name": "Win_Path",
+                        "@Data": "C:\\KRC\\TP\\LoadDataDetermination"
+                    },
+                    {
+                        "@Name": "Name",
+                        "@Data": "LoadDataDetermination"
+                    },
+                    {
+                        "@Name": "Version",
+                        "@Data": "V6.2.6"
+                    },
+                    {
+                        "@Name": "Build",
+                        "@Data": "88"
+                    },
+                    {
+                        "@Name": "IntegratedInstallation",
+                        "@Data": "1"
+                    }
+                ],
+                "Key": [
+                    {
+                        "@Name": "Dependencies"
+                    },
+                    {
+                        "@Name": "Kuka.Load 5",
+                        "Value": [
+                            {
+                                "@Name": "KukaLoadLogFile",
+                                "@Data": "DATA\\Log\\KukaLoad.log"
+                            },
+                            {
+                                "@Name": "KukaLoadProjectPath",
+                                "@Data": "DATA\\project\\KukaLoadProject.xml"
+                            },
+                            {
+                                "@Name": "KukaLoadXmlFile",
+                                "@Data": "DATA\\Source\\KukaLoad.xml"
+                            },
+                            {
+                                "@Name": "MadaPath",
+                                "@Data": "DATA\\ModelData\\"
+                            }
+                        ],
+                        "Key": {
+                            "@Name": "KernelSystem",
+                            "Value": [
+                                {
+                                    "@Name": "5.6",
+                                    "@Data": "..\\TP\\LoadDataDetermination\\BIN\\KernelSystem5.6"
+                                },
+                                {
+                                    "@Name": "8.2",
+                                    "@Data": "..\\TP\\LoadDataDetermination\\BIN\\KernelSystem8.2"
+                                },
+                                {
+                                    "@Name": "8.3",
+                                    "@Data": "."
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "@Name": "Profinet KRC-Nexxt",
+                "Value": [
+                    {
+                        "@Name": "Name",
+                        "@Data": "Profinet KRC-Nexxt"
+                    },
+                    {
+                        "@Name": "Version",
+                        "@Data": "V3.2.2"
+                    },
+                    {
+                        "@Name": "Build",
+                        "@Data": "16"
+                    },
+                    {
+                        "@Name": "IntegratedInstallation",
+                        "@Data": "1"
+                    },
+                    {
+                        "@Name": "DLL",
+                        "@Data": "C:\\KRC_Option\\Profinet KRC-Nexxt\\KrcTech.dll"
+                    }
+                ],
+                "Key": {
+                    "@Name": "Dependencies"
+                }
+            },
+            {
+                "@Name": "RobotSetupManager",
+                "Value": [
+                    {
+                        "@Name": "Name",
+                        "@Data": "RobotSetupManager"
+                    },
+                    {
+                        "@Name": "Version",
+                        "@Data": "V1.1.2"
+                    },
+                    {
+                        "@Name": "Build",
+                        "@Data": "40"
+                    },
+                    {
+                        "@Name": "IntegratedInstallation",
+                        "@Data": "1"
+                    },
+                    {
+                        "@Name": "DLL",
+                        "@Data": "C:\\KRC_Option\\RobotSetupManager\\KrcTech.dll"
+                    }
+                ],
+                "Key": {
+                    "@Name": "Dependencies"
+                }
+            },
+            {
+                "@Name": "SafeOpCrc",
+                "Value": [
+                    {
+                        "@Name": "Name",
+                        "@Data": "SafeOpCrc"
+                    },
+                    {
+                        "@Name": "Version",
+                        "@Data": "V1.1.1"
+                    },
+                    {
+                        "@Name": "Build",
+                        "@Data": "81"
+                    },
+                    {
+                        "@Name": "IntegratedInstallation",
+                        "@Data": "1"
+                    },
+                    {
+                        "@Name": "DLL",
+                        "@Data": "C:\\KRC_Option\\SafeOpCrc\\KrcTech.dll"
+                    }
+                ],
+                "Key": {
+                    "@Name": "Dependencies",
+                    "Value": {
+                        "@Name": "SafeOperation",
+                        "@Data": "1"
+                    }
+                }
+            },
+            {
+                "@Name": "SafeOperation",
+                "Value": [
+                    {
+                        "@Name": "Name",
+                        "@Data": "SafeOperation"
+                    },
+                    {
+                        "@Name": "Version",
+                        "@Data": "V3.2.2"
+                    },
+                    {
+                        "@Name": "Build",
+                        "@Data": "18"
+                    },
+                    {
+                        "@Name": "IntegratedInstallation",
+                        "@Data": "1"
+                    },
+                    {
+                        "@Name": "DLL",
+                        "@Data": "C:\\KRC_Option\\SafeOperation\\KrcTech.dll"
+                    }
+                ],
+                "Key": {
+                    "@Name": "Dependencies"
+                }
+            },
+            {
+                "@Name": "UserKey Activator",
+                "Value": [
+                    {
+                        "@Name": "Version",
+                        "@Data": "V1.1.6"
+                    },
+                    {
+                        "@Name": "Build",
+                        "@Data": "84"
+                    },
+                    {
+                        "@Name": "Name",
+                        "@Data": "UserKey Activator"
+                    },
+                    {
+                        "@Name": "DLL",
+                        "@Data": "C:\\KRC_Option\\UserKey Activator\\KRCTech.dll"
+                    },
+                    {
+                        "@Name": "Noremove",
+                        "@Data": "1"
+                    }
+                ],
+                "Key": {
+                    "@Name": "Dependencies"
+                }
+            },
+            {
+                "@Name": "UserTech",
+                "Value": [
+                    {
+                        "@Name": "Name",
+                        "@Data": "UserTech"
+                    },
+                    {
+                        "@Name": "Version",
+                        "@Data": "V3.3.3"
+                    },
+                    {
+                        "@Name": "Build",
+                        "@Data": "53"
+                    },
+                    {
+                        "@Name": "IntegratedInstallation",
+                        "@Data": "1"
+                    },
+                    {
+                        "@Name": "DLL",
+                        "@Data": "C:\\KRC_Option\\UserTech\\KrcTech.dll"
+                    }
+                ],
+                "Key": {
+                    "@Name": "Dependencies"
+                }
+            }
+        ]
+    },
+    "TelnetECDiag": "ECDiagAll\nINFO   dKRC       17:12:09.940 : Meldung Nr. M_14004 abgesetzt\nINFO   tMELD      17:12:09.940 : M_14004: \"Kein Kontakt zum Power Management Se...\" \nINFO   dKRC       17:12:10.182 : Meldung M_14004 zur�ckgenommen\nBASIC  tSystem    17:12:10.182 : CSystem: loesche Meldung 14004\nvalue = 0 = 0x0\n",
+    "ECatLog": "###########################################\n### Bus:  'ECAT-CTRLBUS' \n###########################################\n### Time: 17:12:02     Date: 19.09.2016 \n###########################################\n\n<ECat-Diag>: ReadEcatDiagData - \"EcatDiag_ECAT-CTRLBUS.xml\" \n + KPP SR [Slave-ID=3]: \n   - [idx=0x1008, subIdx=00] Device-Name             : KPP sr \n   - [idx=0x1009, subIdx=00] HW                      : 1.0 \n   - [idx=0x1018, subIdx=02] product code            : 61 \n   - [idx=0x1018, subIdx=03] revision                : 65794 \n   - [idx=0x1018, subIdx=04] Serial Number           : 1979 \n   - [idx=0x2005, subIdx=04] KUKA-Artikelnummer      : 00-239-009 \n   - [idx=0x2005, subIdx=02] snr LP                  : 98944000179 \n   - [idx=0x2005, subIdx=03] snr MP                  : 96546010059 \n   - [idx=0x1009, subIdx=00] HW-Version              : 1.0 \n   - [idx=0x100a, subIdx=00] SW-Version              : 1.01.02/11 \n   - [idx=0x1c32, subIdx=02] Cycle time              : 125 \n   - [idx=0x200c, subIdx=01] RX Error Counter A      : 0 \n   - [idx=0x200c, subIdx=02] Invalid Frame Counter A : 0 \n   - [idx=0x200c, subIdx=03] RX Error Counter B      : 0 \n   - [idx=0x200c, subIdx=04] Invalid Frame Counter B : 0 \n   - [idx=0x200c, subIdx=05] RX Error Counter C      : 0 \n   - [idx=0x200c, subIdx=06] Invalid Frame Counter C : 0 \n   - [idx=0x200c, subIdx=07] RX Error Counter D      : 0 \n   - [idx=0x200c, subIdx=08] Invalid Frame Counter D : 0 \n   - [idx=0x200c, subIdx=09] Forward Error Counter A : 0 \n   - [idx=0x200c, subIdx=10] Forward Error Counter B : 0 \n   - [idx=0x200c, subIdx=11] Forward Error Counter C : 0 \n   - [idx=0x200c, subIdx=12] Forward Error Counter D : 0 \n   - [idx=0x200c, subIdx=13] Link Lost A             : 1 \n   - [idx=0x200c, subIdx=14] Link Lost B             : 1 \n   - [idx=0x200c, subIdx=15] Link Lost C             : 0 \n   - [idx=0x200c, subIdx=16] Link Lost D             : 0 \n   - [idx=0x2045, subIdx=01] Zaehler MulitpleFrame   : \n   - [idx=0x2045, subIdx=02] Zaehler NoFrame         : \n   - [idx=0x2045, subIdx=03] Zaehler LateFrame       : \n   - [idx=0x1001, subIdx=00] err                     : 0 \n   - [idx=0x5026, subIdx=01] Fehlerzaehler bit0      : 0 \n   - [idx=0x5025, subIdx=01] Fehlerzeitpunkt bit0    : 0 \n   - [idx=0x5026, subIdx=02] Fehlerzaehler bit1      : 0 \n   - [idx=0x5025, subIdx=02] Fehlerzeitpunkt bit1    : 0 \n   - [idx=0x5026, subIdx=03] Fehlerzaehler bit2      : 0 \n   - [idx=0x5025, subIdx=03] Fehlerzeitpunkt bit2    : 0 \n   - [idx=0x5026, subIdx=04] Fehlerzaehler bit3      : 4 \n   - [idx=0x5025, subIdx=04] Fehlerzeitpunkt bit3    : 0 \n   - [idx=0x5026, subIdx=05] Fehlerzaehler bit4      : 0 \n   - [idx=0x5025, subIdx=05] Fehlerzeitpunkt bit4    : 0 \n   - [idx=0x5026, subIdx=06] Fehlerzaehler bit5      : 0 \n   - [idx=0x5025, subIdx=06] Fehlerzeitpunkt bit5    : 0 \n   - [idx=0x5026, subIdx=07] Fehlerzaehler bit6      : 0 \n   - [idx=0x5025, subIdx=07] Fehlerzeitpunkt bit6    : 0 \n   - [idx=0x5026, subIdx=08] Fehlerzaehler bit7      : 0 \n   - [idx=0x5025, subIdx=08] Fehlerzeitpunkt bit7    : 0 \n   - [idx=0x5026, subIdx=09] Fehlerzaehler bit8      : 0 \n   - [idx=0x5025, subIdx=09] Fehlerzeitpunkt bit8    : 0 \n   - [idx=0x5026, subIdx=10] Fehlerzaehler bit9      : 0 \n   - [idx=0x5025, subIdx=10] Fehlerzeitpunkt bit9    : 0 \n   - [idx=0x5026, subIdx=11] Fehlerzaehler bit10     : 19 \n   - [idx=0x5025, subIdx=11] Fehlerzeitpunkt bit10   : 0 \n   - [idx=0x5026, subIdx=12] Fehlerzaehler bit11     : 0 \n   - [idx=0x5025, subIdx=12] Fehlerzeitpunkt bit11   : 0 \n   - [idx=0x5026, subIdx=17] Fehlerzaehler bit16     : 0 \n   - [idx=0x5025, subIdx=17] Fehlerzeitpunkt bit16   : 0 \n   - [idx=0x5026, subIdx=18] Fehlerzaehler bit17     : 0 \n   - [idx=0x5025, subIdx=18] Fehlerzeitpunkt bit17   : 0 \n   - [idx=0x5026, subIdx=19] Fehlerzaehl. Komm.Fehler: 14 \n   - [idx=0x5025, subIdx=19] Fehlerzeitpunkt Komm.fe.: 0 \n   - [idx=0x5026, subIdx=20] Fehlerzaehler bit19     : 0 \n   - [idx=0x5025, subIdx=20] Fehlerzeitpunkt bit19   : 0 \n   - [idx=0x5026, subIdx=21] Fehlerzaehler bit20     : 0 \n   - [idx=0x5025, subIdx=21] Fehlerzeitpunkt bit20   : 0 \n   - [idx=0x5026, subIdx=22] Fehlerzaehler bit21     : 0 \n   - [idx=0x5025, subIdx=22] Fehlerzeitpunkt bit21   : 0 \n   - [idx=0x5026, subIdx=23] Fehlerzaehler bit22     : 86 \n   - [idx=0x5025, subIdx=23] Fehlerzeitpunkt bit22   : 0 \n   - [idx=0x5026, subIdx=24] Fehlerzaehler bit23     : 0 \n   - [idx=0x5025, subIdx=24] Fehlerzeitpunkt bit23   : 0 \n   - [idx=0x5026, subIdx=25] Fehlerzaehler bit24     : 0 \n   - [idx=0x5025, subIdx=25] Fehlerzeitpunkt bit24   : 0 \n   - [idx=0x5026, subIdx=26] Fehlerzaehler bit25     : 0 \n   - [idx=0x5025, subIdx=26] Fehlerzeitpunkt bit25   : 0 \n   - [idx=0x5026, subIdx=28] Fehlerzaehler bit27     : 0 \n   - [idx=0x5025, subIdx=28] Fehlerzeitpunkt bit27   : 0 \n   - [idx=0x5026, subIdx=29] Fehlerzaehler bit28     : 0 \n   - [idx=0x5025, subIdx=29] Fehlerzeitpunkt bit28   : 0 \n   - [idx=0x5026, subIdx=32] Fehlerzaehler bit31     : 19 \n   - [idx=0x5025, subIdx=32] Fehlerzeitpunkt bit31   : 0 \n   - [idx=0x5021, subIdx=02] Aktueller Fehlerzustand : 0 \n   - [idx=0x5021, subIdx=03] Gespeich. Fehlerzustand : 0 \n   - [idx=0x5021, subIdx=05] Aktueller Warnzustand   : 0 \n   - [idx=0x5021, subIdx=06] Gespeich. Warnzustand   : 0 \n   - [idx=0x5027, subIdx=01] Fehlerhist. VS F-Nummer1: 23 \n   - [idx=0x5027, subIdx=06] Fehlerhist. VS F-Zaehl.1: 86 \n   - [idx=0x5027, subIdx=02] Fehlerhist. VS F-Nummer2: 11 \n   - [idx=0x5027, subIdx=07] Fehlerhist. VS F-Zaehl.2: 19 \n   - [idx=0x5027, subIdx=03] Fehlerhist. VS F-Nummer3: 32 \n   - [idx=0x5027, subIdx=08] Fehlerhist. VS F-Zaehl.3: 19 \n   - [idx=0x5027, subIdx=04] Fehlerhist. VS F-Nummer4: 19 \n   - [idx=0x5027, subIdx=09] Fehlerhist. VS F-Zaehl.4: 14 \n   - [idx=0x5027, subIdx=05] Fehlerhist. VS F-Nummer5: 4 \n   - [idx=0x5027, subIdx=10] Fehlerhist. VS F-Zaehl.5: 4 \n   - [idx=0x2050, subIdx=00] Innenraumtemp.   (0.1 C): 286 \n   - [idx=0x2009, subIdx=01] L1                      : \n   - [idx=0x2009, subIdx=02] L2                      : \n   - [idx=0x2009, subIdx=03] L3                      : \n   - [idx=0x2042, subIdx=01] U24                     : 0 \n   - [idx=0x2047, subIdx=01] Sollwert UBr            : 205 \n   - [idx=0x2050, subIdx=00] Innenraumtemp.   (0.1?C): 286 \n   - [idx=0x5050, subIdx=00] KKtemp.          (0.1?C): 276 \n   - [idx=0x2006, subIdx=01] Betriebszeit       (sek): 15657 \n   - [idx=0x2006, subIdx=02] Betriebszeit  (2^16 sek): 230 \n   - [idx=0x2006, subIdx=03] Einschaltzeit      (sek): 53724 \n   - [idx=0x2006, subIdx=04] Einschaltzeit (2^16 sek): 18 \n   - [idx=0x2008, subIdx=00] UZK                     : 589 \n   - [idx=0x2042, subIdx=01] DC24V                   : 0 \n   - [idx=0x5040, subIdx=01] Auslastung Ballast      : 0 \n   - [idx=0x5040, subIdx=04] Nennleistung Ballast    : 100 \n   - [idx=0x5043, subIdx=02] Einschaltschwelle       : 18022 \n   - [idx=0x5043, subIdx=03] Ausschaltschwelle       : 17367 \n   - [idx=0x5060, subIdx=01] Betreibsstd     lo      : 35761 \n   - [idx=0x5060, subIdx=02] Betreibsstd     hi      : 88 \n + KSP SR [Slave-ID=4]: \n   - [idx=0x1008, subIdx=00] Device-Name             : KSP sr \n   - [idx=0x1018, subIdx=04] Serial Number           : 1473 \n   - [idx=0x2005, subIdx=04] KUKA-Artikelnummer      : 00-239-010 \n   - [idx=0x1009, subIdx=00] HW-Version              : 1.1 \n   - [idx=0x100a, subIdx=00] SW-Version              : 1.01.04/13/129.0062.9912 \n   - [idx=0x1018, subIdx=03] Revision                : 65796 \n   - [idx=0x2071, subIdx=01] KSK-Version Major       : \n   - [idx=0x2071, subIdx=02] KSK-Version Minor       : \n   - [idx=0x2071, subIdx=03] KSK-Version Internal    : \n   - [idx=0x1c32, subIdx=02] Cycle time              : 62500 \n   - [idx=0x200c, subIdx=01] RX Error Counter A      : 0 \n   - [idx=0x200c, subIdx=02] Invalid Frame Counter A : 0 \n   - [idx=0x200c, subIdx=03] RX Error Counter B      : 0 \n   - [idx=0x200c, subIdx=04] Invalid Frame Counter B : 0 \n   - [idx=0x200c, subIdx=05] RX Error Counter C      : 0 \n   - [idx=0x200c, subIdx=06] Invalid Frame Counter C : 0 \n   - [idx=0x200c, subIdx=07] RX Error Counter D      : 0 \n   - [idx=0x200c, subIdx=08] Invalid Frame Counter D : 0 \n   - [idx=0x200c, subIdx=09] Forward Error Counter A : 0 \n   - [idx=0x200c, subIdx=10] Forward Error Counter B : 0 \n   - [idx=0x200c, subIdx=11] Forward Error Counter C : 0 \n   - [idx=0x200c, subIdx=12] Forward Error Counter D : 0 \n   - [idx=0x200c, subIdx=13] Link Lost A             : 1 \n   - [idx=0x200c, subIdx=14] Link Lost B             : 1 \n   - [idx=0x200c, subIdx=15] Link Lost C             : 0 \n   - [idx=0x200c, subIdx=16] Link Lost D             : 0 \n   - [idx=0x2045, subIdx=01] Zaehler MulitpleFrame    : 0 \n   - [idx=0x2045, subIdx=02] Zaehler NoFrame          : 0 \n   - [idx=0x2045, subIdx=03] Zaehler LateFrame        : 0 \n   - [idx=0x2270, subIdx=01] KSK Status              : 387 \n   - [idx=0x2270, subIdx=02] KSK Status              : 0 \n   - [idx=0x2470, subIdx=01] KSK Status              : 387 \n   - [idx=0x2470, subIdx=02] KSK Status              : 0 \n   - [idx=0x2670, subIdx=01] KSK Status              : 387 \n   - [idx=0x2670, subIdx=02] KSK Status              : 0 \n   - [idx=0x2870, subIdx=01] KSK Status              : 387 \n   - [idx=0x2870, subIdx=02] KSK Status              : 0 \n   - [idx=0x2a70, subIdx=01] KSK Status              : 387 \n   - [idx=0x2a70, subIdx=02] KSK Status              : 0 \n   - [idx=0x2c70, subIdx=01] KSK Status              : 387 \n   - [idx=0x2c70, subIdx=02] KSK Status              : 0 \n   - [idx=0x2226, subIdx=01] Fehlerzaehler bit0       : 0 \n   - [idx=0x2225, subIdx=01] Fehlerzeitpunkt bit0    : 0 \n   - [idx=0x2226, subIdx=02] Fehlerzaehler bit1       : 0 \n   - [idx=0x2225, subIdx=02] Fehlerzeitpunkt bit1    : 0 \n   - [idx=0x2226, subIdx=03] Fehlerzaehler bit2       : 0 \n   - [idx=0x2225, subIdx=03] Fehlerzeitpunkt bit2    : 0 \n   - [idx=0x2226, subIdx=04] Fehlerzaehler bit3       : 0 \n   - [idx=0x2225, subIdx=04] Fehlerzeitpunkt bit3    : 0 \n   - [idx=0x2226, subIdx=05] Fehlerzaehler bit4       : 0 \n   - [idx=0x2225, subIdx=05] Fehlerzeitpunkt bit4    : 0 \n   - [idx=0x2226, subIdx=06] Fehlerzaehler bit5       : 0 \n   - [idx=0x2225, subIdx=06] Fehlerzeitpunkt bit5    : 0 \n   - [idx=0x2226, subIdx=07] Fehlerzaehler bit6       : 0 \n   - [idx=0x2225, subIdx=07] Fehlerzeitpunkt bit6    : 0 \n   - [idx=0x2226, subIdx=08] Fehlerzaehler bit7       : 0 \n   - [idx=0x2225, subIdx=08] Fehlerzeitpunkt bit7    : 0 \n   - [idx=0x2226, subIdx=09] Fehlerzaehler bit8       : 0 \n   - [idx=0x2225, subIdx=09] Fehlerzeitpunkt bit8    : 0 \n   - [idx=0x2226, subIdx=10] Fehlerzaehler bit9      : 0 \n   - [idx=0x2225, subIdx=10] Fehlerzeitpunkt bit9   : 0 \n   - [idx=0x2226, subIdx=11] Fehlerzaehler bit10      : 0 \n   - [idx=0x2225, subIdx=11] Fehlerzeitpunkt bit10   : 0 \n   - [idx=0x2226, subIdx=12] Fehlerzaehler bit11      : 0 \n   - [idx=0x2225, subIdx=12] Fehlerzeitpunkt bit11   : 0 \n   - [idx=0x2226, subIdx=13] Fehlerzaehler bit12      : 1 \n   - [idx=0x2225, subIdx=13] Fehlerzeitpunkt bit12   : 12064165 \n   - [idx=0x2226, subIdx=14] Fehlerzaehler bit13      : 0 \n   - [idx=0x2225, subIdx=14] Fehlerzeitpunkt bit13   : 0 \n   - [idx=0x2226, subIdx=15] Fehlerzaehler bit14      : 0 \n   - [idx=0x2225, subIdx=15] Fehlerzeitpunkt bit14   : 0 \n   - [idx=0x2226, subIdx=16] Fehlerzaehler bit15      : 0 \n   - [idx=0x2225, subIdx=16] Fehlerzeitpunkt bit15   : 0 \n   - [idx=0x2226, subIdx=17] Fehlerzaehler bit16      : 0 \n   - [idx=0x2225, subIdx=17] Fehlerzeitpunkt bit16   : 0 \n   - [idx=0x2226, subIdx=18] Fehlerzaehler bit17      : 0 \n   - [idx=0x2225, subIdx=18] Fehlerzeitpunkt bit17   : 0 \n   - [idx=0x2226, subIdx=19] Fehlerzaehler Komm.fehler: 0 \n   - [idx=0x2225, subIdx=19] Fehlerzeitpunkt Komm.fe.: 0 \n   - [idx=0x2226, subIdx=20] Fehlerzaehler bit19      : 0 \n   - [idx=0x2225, subIdx=20] Fehlerzeitpunkt bit19   : 0 \n   - [idx=0x2226, subIdx=21] Fehlerzaehler bit20      : 0 \n   - [idx=0x2225, subIdx=21] Fehlerzeitpunkt bit20   : 0 \n   - [idx=0x2226, subIdx=22] Fehlerzaehler bit21      : 0 \n   - [idx=0x2225, subIdx=22] Fehlerzeitpunkt bit21   : 0 \n   - [idx=0x2226, subIdx=23] Fehlerzaehler bit22      : 0 \n   - [idx=0x2225, subIdx=23] Fehlerzeitpunkt bit22   : 0 \n   - [idx=0x2226, subIdx=24] Fehlerzaehler bit23      : 0 \n   - [idx=0x2225, subIdx=24] Fehlerzeitpunkt bit23   : 0 \n   - [idx=0x2226, subIdx=25] Fehlerzaehler bit24      : 0 \n   - [idx=0x2225, subIdx=25] Fehlerzeitpunkt bit24   : 0 \n   - [idx=0x2226, subIdx=26] Fehlerzaehler bit25      : 0 \n   - [idx=0x2225, subIdx=26] Fehlerzeitpunkt bit25   : 0 \n   - [idx=0x2226, subIdx=27] Fehlerzaehler bit26      : 0 \n   - [idx=0x2225, subIdx=27] Fehlerzeitpunkt bit26   : 0 \n   - [idx=0x2226, subIdx=28] Fehlerzaehler bit27      : 0 \n   - [idx=0x2225, subIdx=28] Fehlerzeitpunkt bit27   : 0 \n   - [idx=0x2226, subIdx=29] Fehlerzaehler bit28      : 0 \n   - [idx=0x2225, subIdx=29] Fehlerzeitpunkt bit28   : 0 \n   - [idx=0x2226, subIdx=30] Fehlerzaehler bit29      : 0 \n   - [idx=0x2225, subIdx=30] Fehlerzeitpunkt bit29   : 0 \n   - [idx=0x2226, subIdx=31] Fehlerzaehler bit30      : 0 \n   - [idx=0x2225, subIdx=31] Fehlerzeitpunkt bit30   : 0 \n   - [idx=0x2226, subIdx=32] Fehlerzaehler bit31      : 0 \n   - [idx=0x2225, subIdx=32] Fehlerzeitpunkt bit31   : 0 \n   - [idx=0x2426, subIdx=01] Fehlerzaehler bit0       : 0 \n   - [idx=0x2425, subIdx=01] Fehlerzeitpunkt bit0    : 0 \n   - [idx=0x2426, subIdx=02] Fehlerzaehler bit1       : 0 \n   - [idx=0x2425, subIdx=02] Fehlerzeitpunkt bit1    : 0 \n   - [idx=0x2426, subIdx=03] Fehlerzaehler bit2       : 0 \n   - [idx=0x2425, subIdx=03] Fehlerzeitpunkt bit2    : 0 \n   - [idx=0x2426, subIdx=04] Fehlerzaehler bit3       : 0 \n   - [idx=0x2425, subIdx=04] Fehlerzeitpunkt bit3    : 0 \n   - [idx=0x2426, subIdx=05] Fehlerzaehler bit4       : 0 \n   - [idx=0x2425, subIdx=05] Fehlerzeitpunkt bit4    : 0 \n   - [idx=0x2426, subIdx=06] Fehlerzaehler bit5       : 0 \n   - [idx=0x2425, subIdx=06] Fehlerzeitpunkt bit5    : 0 \n   - [idx=0x2426, subIdx=07] Fehlerzaehler bit6       : 0 \n   - [idx=0x2425, subIdx=07] Fehlerzeitpunkt bit6    : 0 \n   - [idx=0x2426, subIdx=08] Fehlerzaehler bit7       : 0 \n   - [idx=0x2425, subIdx=08] Fehlerzeitpunkt bit7    : 0 \n   - [idx=0x2426, subIdx=09] Fehlerzaehler bit8       : 0 \n   - [idx=0x2425, subIdx=09] Fehlerzeitpunkt bit8    : 0 \n   - [idx=0x2426, subIdx=10] Fehlerzaehler bit9       : 0 \n   - [idx=0x2425, subIdx=10] Fehlerzeitpunkt bit9    : 0 \n   - [idx=0x2426, subIdx=11] Fehlerzaehler bit10      : 0 \n   - [idx=0x2425, subIdx=11] Fehlerzeitpunkt bit10   : 0 \n   - [idx=0x2426, subIdx=12] Fehlerzaehler bit11      : 0 \n   - [idx=0x2425, subIdx=12] Fehlerzeitpunkt bit11   : 0 \n   - [idx=0x2426, subIdx=13] Fehlerzaehler bit12      : 1 \n   - [idx=0x2425, subIdx=13] Fehlerzeitpunkt bit12   : 12064165 \n   - [idx=0x2426, subIdx=14] Fehlerzaehler bit13      : 0 \n   - [idx=0x2425, subIdx=14] Fehlerzeitpunkt bit13   : 0 \n   - [idx=0x2426, subIdx=15] Fehlerzaehler bit14      : 0 \n   - [idx=0x2425, subIdx=15] Fehlerzeitpunkt bit14   : 0 \n   - [idx=0x2426, subIdx=16] Fehlerzaehler bit15      : 0 \n   - [idx=0x2425, subIdx=16] Fehlerzeitpunkt bit15   : 0 \n   - [idx=0x2426, subIdx=17] Fehlerzaehler bit16      : 0 \n   - [idx=0x2425, subIdx=17] Fehlerzeitpunkt bit16   : 0 \n   - [idx=0x2426, subIdx=18] Fehlerzaehler bit17      : 0 \n   - [idx=0x2425, subIdx=18] Fehlerzeitpunkt bit17   : 0 \n   - [idx=0x2426, subIdx=19] Fehlerzaehler Komm.fehler: 0 \n   - [idx=0x2425, subIdx=19] Fehlerzeitpunkt Komm.fe.: 0 \n   - [idx=0x2426, subIdx=20] Fehlerzaehler bit19      : 0 \n   - [idx=0x2425, subIdx=20] Fehlerzeitpunkt bit19   : 0 \n   - [idx=0x2426, subIdx=21] Fehlerzaehler bit20      : 0 \n   - [idx=0x2425, subIdx=21] Fehlerzeitpunkt bit20   : 0 \n   - [idx=0x2426, subIdx=22] Fehlerzaehler bit21      : 0 \n   - [idx=0x2425, subIdx=22] Fehlerzeitpunkt bit21   : 0 \n   - [idx=0x2426, subIdx=23] Fehlerzaehler bit22      : 0 \n   - [idx=0x2425, subIdx=23] Fehlerzeitpunkt bit22   : 0 \n   - [idx=0x2426, subIdx=24] Fehlerzaehler bit23      : 0 \n   - [idx=0x2425, subIdx=24] Fehlerzeitpunkt bit23   : 0 \n   - [idx=0x2426, subIdx=25] Fehlerzaehler bit24      : 0 \n   - [idx=0x2425, subIdx=25] Fehlerzeitpunkt bit24   : 0 \n   - [idx=0x2426, subIdx=26] Fehlerzaehler bit25      : 0 \n   - [idx=0x2425, subIdx=26] Fehlerzeitpunkt bit25   : 0 \n   - [idx=0x2426, subIdx=27] Fehlerzaehler bit26      : 0 \n   - [idx=0x2425, subIdx=27] Fehlerzeitpunkt bit26   : 0 \n   - [idx=0x2426, subIdx=28] Fehlerzaehler bit27      : 0 \n   - [idx=0x2425, subIdx=28] Fehlerzeitpunkt bit27   : 0 \n   - [idx=0x2426, subIdx=29] Fehlerzaehler bit28      : 0 \n   - [idx=0x2425, subIdx=29] Fehlerzeitpunkt bit28   : 0 \n   - [idx=0x2426, subIdx=30] Fehlerzaehler bit29      : 0 \n   - [idx=0x2425, subIdx=30] Fehlerzeitpunkt bit29   : 0 \n   - [idx=0x2426, subIdx=31] Fehlerzaehler bit30      : 0 \n   - [idx=0x2425, subIdx=31] Fehlerzeitpunkt bit30   : 0 \n   - [idx=0x2426, subIdx=32] Fehlerzaehler bit31      : 0 \n   - [idx=0x2425, subIdx=32] Fehlerzeitpunkt bit31   : 0 \n   - [idx=0x2626, subIdx=01] Fehlerzaehler bit0       : 0 \n   - [idx=0x2625, subIdx=01] Fehlerzeitpunkt bit0    : 0 \n   - [idx=0x2626, subIdx=02] Fehlerzaehler bit1       : 0 \n   - [idx=0x2625, subIdx=02] Fehlerzeitpunkt bit1    : 0 \n   - [idx=0x2626, subIdx=03] Fehlerzaehler bit2       : 0 \n   - [idx=0x2625, subIdx=03] Fehlerzeitpunkt bit2    : 0 \n   - [idx=0x2626, subIdx=04] Fehlerzaehler bit3       : 0 \n   - [idx=0x2625, subIdx=04] Fehlerzeitpunkt bit3    : 0 \n   - [idx=0x2626, subIdx=05] Fehlerzaehler bit4       : 0 \n   - [idx=0x2625, subIdx=05] Fehlerzeitpunkt bit4    : 0 \n   - [idx=0x2626, subIdx=06] Fehlerzaehler bit5       : 0 \n   - [idx=0x2625, subIdx=06] Fehlerzeitpunkt bit5    : 0 \n   - [idx=0x2626, subIdx=07] Fehlerzaehler bit6       : 0 \n   - [idx=0x2625, subIdx=07] Fehlerzeitpunkt bit6    : 0 \n   - [idx=0x2626, subIdx=08] Fehlerzaehler bit7       : 0 \n   - [idx=0x2625, subIdx=08] Fehlerzeitpunkt bit7    : 0 \n   - [idx=0x2626, subIdx=09] Fehlerzaehler bit8       : 0 \n   - [idx=0x2625, subIdx=09] Fehlerzeitpunkt bit8    : 0 \n   - [idx=0x2626, subIdx=10] Fehlerzaehler bit9       : 0 \n   - [idx=0x2625, subIdx=10] Fehlerzeitpunkt bit9    : 0 \n   - [idx=0x2626, subIdx=11] Fehlerzaehler bit10      : 0 \n   - [idx=0x2625, subIdx=11] Fehlerzeitpunkt bit10   : 0 \n   - [idx=0x2626, subIdx=12] Fehlerzaehler bit11      : 0 \n   - [idx=0x2625, subIdx=12] Fehlerzeitpunkt bit11   : 0 \n   - [idx=0x2626, subIdx=13] Fehlerzaehler bit12      : 1 \n   - [idx=0x2625, subIdx=13] Fehlerzeitpunkt bit12   : 12064165 \n   - [idx=0x2626, subIdx=14] Fehlerzaehler bit13      : 0 \n   - [idx=0x2625, subIdx=14] Fehlerzeitpunkt bit13   : 0 \n   - [idx=0x2626, subIdx=15] Fehlerzaehler bit14      : 0 \n   - [idx=0x2625, subIdx=15] Fehlerzeitpunkt bit14   : 0 \n   - [idx=0x2626, subIdx=16] Fehlerzaehler bit15      : 0 \n   - [idx=0x2625, subIdx=16] Fehlerzeitpunkt bit15   : 0 \n   - [idx=0x2626, subIdx=17] Fehlerzaehler bit16      : 0 \n   - [idx=0x2625, subIdx=17] Fehlerzeitpunkt bit16   : 0 \n   - [idx=0x2626, subIdx=18] Fehlerzaehler bit17      : 0 \n   - [idx=0x2625, subIdx=18] Fehlerzeitpunkt bit17   : 0 \n   - [idx=0x2626, subIdx=19] Fehlerzaehler Komm.fehler: 0 \n   - [idx=0x2625, subIdx=19] Fehlerzeitpunkt Komm.fe.: 0 \n   - [idx=0x2626, subIdx=20] Fehlerzaehler bit19      : 0 \n   - [idx=0x2625, subIdx=20] Fehlerzeitpunkt bit19   : 0 \n   - [idx=0x2626, subIdx=21] Fehlerzaehler bit20      : 0 \n   - [idx=0x2625, subIdx=21] Fehlerzeitpunkt bit20   : 0 \n   - [idx=0x2626, subIdx=22] Fehlerzaehler bit21      : 0 \n   - [idx=0x2625, subIdx=22] Fehlerzeitpunkt bit21   : 0 \n   - [idx=0x2626, subIdx=23] Fehlerzaehler bit22      : 0 \n   - [idx=0x2625, subIdx=23] Fehlerzeitpunkt bit22   : 0 \n   - [idx=0x2626, subIdx=24] Fehlerzaehler bit23      : 0 \n   - [idx=0x2625, subIdx=24] Fehlerzeitpunkt bit23   : 0 \n   - [idx=0x2626, subIdx=25] Fehlerzaehler bit24      : 0 \n   - [idx=0x2625, subIdx=25] Fehlerzeitpunkt bit24   : 0 \n   - [idx=0x2626, subIdx=26] Fehlerzaehler bit25      : 0 \n   - [idx=0x2625, subIdx=26] Fehlerzeitpunkt bit25   : 0 \n   - [idx=0x2626, subIdx=27] Fehlerzaehler bit26      : 0 \n   - [idx=0x2625, subIdx=27] Fehlerzeitpunkt bit26   : 0 \n   - [idx=0x2626, subIdx=28] Fehlerzaehler bit27      : 0 \n   - [idx=0x2625, subIdx=28] Fehlerzeitpunkt bit27   : 0 \n   - [idx=0x2626, subIdx=29] Fehlerzaehler bit28      : 0 \n   - [idx=0x2625, subIdx=29] Fehlerzeitpunkt bit28   : 0 \n   - [idx=0x2626, subIdx=30] Fehlerzaehler bit29      : 0 \n   - [idx=0x2625, subIdx=30] Fehlerzeitpunkt bit29   : 0 \n   - [idx=0x2626, subIdx=31] Fehlerzaehler bit30      : 0 \n   - [idx=0x2625, subIdx=31] Fehlerzeitpunkt bit30   : 0 \n   - [idx=0x2626, subIdx=32] Fehlerzaehler bit31      : 0 \n   - [idx=0x2625, subIdx=32] Fehlerzeitpunkt bit31   : 0 \n   - [idx=0x2826, subIdx=01] Fehlerzaehler bit0       : 0 \n   - [idx=0x2825, subIdx=01] Fehlerzeitpunkt bit0    : 0 \n   - [idx=0x2826, subIdx=02] Fehlerzaehler bit1       : 0 \n   - [idx=0x2825, subIdx=02] Fehlerzeitpunkt bit1    : 0 \n   - [idx=0x2826, subIdx=03] Fehlerzaehler bit2       : 0 \n   - [idx=0x2825, subIdx=03] Fehlerzeitpunkt bit2    : 0 \n   - [idx=0x2826, subIdx=04] Fehlerzaehler bit3       : 0 \n   - [idx=0x2825, subIdx=04] Fehlerzeitpunkt bit3    : 0 \n   - [idx=0x2826, subIdx=05] Fehlerzaehler bit4       : 0 \n   - [idx=0x2825, subIdx=05] Fehlerzeitpunkt bit4    : 0 \n   - [idx=0x2826, subIdx=06] Fehlerzaehler bit5       : 0 \n   - [idx=0x2825, subIdx=06] Fehlerzeitpunkt bit5    : 0 \n   - [idx=0x2826, subIdx=07] Fehlerzaehler bit6       : 0 \n   - [idx=0x2825, subIdx=07] Fehlerzeitpunkt bit6    : 0 \n   - [idx=0x2826, subIdx=08] Fehlerzaehler bit7       : 0 \n   - [idx=0x2825, subIdx=08] Fehlerzeitpunkt bit7    : 0 \n   - [idx=0x2826, subIdx=09] Fehlerzaehler bit8       : 0 \n   - [idx=0x2825, subIdx=09] Fehlerzeitpunkt bit8    : 0 \n   - [idx=0x2826, subIdx=10] Fehlerzaehler bit9       : 0 \n   - [idx=0x2825, subIdx=10] Fehlerzeitpunkt bit9    : 0 \n   - [idx=0x2826, subIdx=11] Fehlerzaehler bit10      : 0 \n   - [idx=0x2825, subIdx=11] Fehlerzeitpunkt bit10   : 0 \n   - [idx=0x2826, subIdx=12] Fehlerzaehler bit11      : 0 \n   - [idx=0x2825, subIdx=12] Fehlerzeitpunkt bit11   : 0 \n   - [idx=0x2826, subIdx=13] Fehlerzaehler bit12      : 1 \n   - [idx=0x2825, subIdx=13] Fehlerzeitpunkt bit12   : 12064165 \n   - [idx=0x2826, subIdx=14] Fehlerzaehler bit13      : 0 \n   - [idx=0x2825, subIdx=14] Fehlerzeitpunkt bit13   : 0 \n   - [idx=0x2826, subIdx=15] Fehlerzaehler bit14      : 0 \n   - [idx=0x2825, subIdx=15] Fehlerzeitpunkt bit14   : 0 \n   - [idx=0x2826, subIdx=16] Fehlerzaehler bit15      : 0 \n   - [idx=0x2825, subIdx=16] Fehlerzeitpunkt bit15   : 0 \n   - [idx=0x2826, subIdx=17] Fehlerzaehler bit16      : 0 \n   - [idx=0x2825, subIdx=17] Fehlerzeitpunkt bit16   : 0 \n   - [idx=0x2826, subIdx=18] Fehlerzaehler bit17      : 0 \n   - [idx=0x2825, subIdx=18] Fehlerzeitpunkt bit17   : 0 \n   - [idx=0x2826, subIdx=19] Fehlerzaehler Komm.fehler: 0 \n   - [idx=0x2825, subIdx=19] Fehlerzeitpunkt Komm.fe.: 0 \n   - [idx=0x2826, subIdx=20] Fehlerzaehler bit19      : 0 \n   - [idx=0x2825, subIdx=20] Fehlerzeitpunkt bit19   : 0 \n   - [idx=0x2826, subIdx=21] Fehlerzaehler bit20      : 0 \n   - [idx=0x2825, subIdx=21] Fehlerzeitpunkt bit20   : 0 \n   - [idx=0x2826, subIdx=22] Fehlerzaehler bit21      : 0 \n   - [idx=0x2825, subIdx=22] Fehlerzeitpunkt bit21   : 0 \n   - [idx=0x2826, subIdx=23] Fehlerzaehler bit22      : 0 \n   - [idx=0x2825, subIdx=23] Fehlerzeitpunkt bit22   : 0 \n   - [idx=0x2826, subIdx=24] Fehlerzaehler bit23      : 0 \n   - [idx=0x2825, subIdx=24] Fehlerzeitpunkt bit23   : 0 \n   - [idx=0x2826, subIdx=25] Fehlerzaehler bit24      : 0 \n   - [idx=0x2825, subIdx=25] Fehlerzeitpunkt bit24   : 0 \n   - [idx=0x2826, subIdx=26] Fehlerzaehler bit25      : 0 \n   - [idx=0x2825, subIdx=26] Fehlerzeitpunkt bit25   : 0 \n   - [idx=0x2826, subIdx=27] Fehlerzaehler bit26      : 0 \n   - [idx=0x2825, subIdx=27] Fehlerzeitpunkt bit26   : 0 \n   - [idx=0x2826, subIdx=28] Fehlerzaehler bit27      : 0 \n   - [idx=0x2825, subIdx=28] Fehlerzeitpunkt bit27   : 0 \n   - [idx=0x2826, subIdx=29] Fehlerzaehler bit28      : 0 \n   - [idx=0x2825, subIdx=29] Fehlerzeitpunkt bit28   : 0 \n   - [idx=0x2826, subIdx=30] Fehlerzaehler bit29      : 0 \n   - [idx=0x2825, subIdx=30] Fehlerzeitpunkt bit29   : 0 \n   - [idx=0x2826, subIdx=31] Fehlerzaehler bit30      : 0 \n   - [idx=0x2825, subIdx=31] Fehlerzeitpunkt bit30   : 0 \n   - [idx=0x2826, subIdx=32] Fehlerzaehler bit31      : 0 \n   - [idx=0x2825, subIdx=32] Fehlerzeitpunkt bit31   : 0 \n   - [idx=0x2a26, subIdx=01] Fehlerzaehler bit0       : 0 \n   - [idx=0x2a25, subIdx=01] Fehlerzeitpunkt bit0    : 0 \n   - [idx=0x2a26, subIdx=02] Fehlerzaehler bit1       : 0 \n   - [idx=0x2a25, subIdx=02] Fehlerzeitpunkt bit1    : 0 \n   - [idx=0x2a26, subIdx=03] Fehlerzaehler bit2       : 0 \n   - [idx=0x2a25, subIdx=03] Fehlerzeitpunkt bit2    : 0 \n   - [idx=0x2a26, subIdx=04] Fehlerzaehler bit3       : 0 \n   - [idx=0x2a25, subIdx=04] Fehlerzeitpunkt bit3    : 0 \n   - [idx=0x2a26, subIdx=05] Fehlerzaehler bit4       : 0 \n   - [idx=0x2a25, subIdx=05] Fehlerzeitpunkt bit4    : 0 \n   - [idx=0x2a26, subIdx=06] Fehlerzaehler bit5       : 0 \n   - [idx=0x2a25, subIdx=06] Fehlerzeitpunkt bit5    : 0 \n   - [idx=0x2a26, subIdx=07] Fehlerzaehler bit6       : 0 \n   - [idx=0x2a25, subIdx=07] Fehlerzeitpunkt bit6    : 0 \n   - [idx=0x2a26, subIdx=08] Fehlerzaehler bit7       : 0 \n   - [idx=0x2a25, subIdx=08] Fehlerzeitpunkt bit7    : 0 \n   - [idx=0x2a26, subIdx=09] Fehlerzaehler bit8       : 0 \n   - [idx=0x2a25, subIdx=09] Fehlerzeitpunkt bit8    : 0 \n   - [idx=0x2a26, subIdx=10] Fehlerzaehler bit9       : 0 \n   - [idx=0x2a25, subIdx=10] Fehlerzeitpunkt bit9    : 0 \n   - [idx=0x2a26, subIdx=11] Fehlerzaehler bit10      : 0 \n   - [idx=0x2a25, subIdx=11] Fehlerzeitpunkt bit10   : 0 \n   - [idx=0x2a26, subIdx=12] Fehlerzaehler bit11      : 0 \n   - [idx=0x2a25, subIdx=12] Fehlerzeitpunkt bit11   : 0 \n   - [idx=0x2a26, subIdx=13] Fehlerzaehler bit12      : 1 \n   - [idx=0x2a25, subIdx=13] Fehlerzeitpunkt bit12   : 12064165 \n   - [idx=0x2a26, subIdx=14] Fehlerzaehler bit13      : 0 \n   - [idx=0x2a25, subIdx=14] Fehlerzeitpunkt bit13   : 0 \n   - [idx=0x2a26, subIdx=15] Fehlerzaehler bit14      : 0 \n   - [idx=0x2a25, subIdx=15] Fehlerzeitpunkt bit14   : 0 \n   - [idx=0x2a26, subIdx=16] Fehlerzaehler bit15      : 0 \n   - [idx=0x2a25, subIdx=16] Fehlerzeitpunkt bit15   : 0 \n   - [idx=0x2a26, subIdx=17] Fehlerzaehler bit16      : 0 \n   - [idx=0x2a25, subIdx=17] Fehlerzeitpunkt bit16   : 0 \n   - [idx=0x2a26, subIdx=18] Fehlerzaehler bit17      : 0 \n   - [idx=0x2a25, subIdx=18] Fehlerzeitpunkt bit17   : 0 \n   - [idx=0x2a26, subIdx=19] Fehlerzaehler Komm.fehler: 0 \n   - [idx=0x2a25, subIdx=19] Fehlerzeitpunkt Komm.fe.: 0 \n   - [idx=0x2a26, subIdx=20] Fehlerzaehler bit19      : 0 \n   - [idx=0x2a25, subIdx=20] Fehlerzeitpunkt bit19   : 0 \n   - [idx=0x2a26, subIdx=21] Fehlerzaehler bit20      : 0 \n   - [idx=0x2a25, subIdx=21] Fehlerzeitpunkt bit20   : 0 \n   - [idx=0x2a26, subIdx=22] Fehlerzaehler bit21      : 0 \n   - [idx=0x2a25, subIdx=22] Fehlerzeitpunkt bit21   : 0 \n   - [idx=0x2a26, subIdx=23] Fehlerzaehler bit22      : 0 \n   - [idx=0x2a25, subIdx=23] Fehlerzeitpunkt bit22   : 0 \n   - [idx=0x2a26, subIdx=24] Fehlerzaehler bit23      : 0 \n   - [idx=0x2a25, subIdx=24] Fehlerzeitpunkt bit23   : 0 \n   - [idx=0x2a26, subIdx=25] Fehlerzaehler bit24      : 0 \n   - [idx=0x2a25, subIdx=25] Fehlerzeitpunkt bit24   : 0 \n   - [idx=0x2a26, subIdx=26] Fehlerzaehler bit25      : 0 \n   - [idx=0x2a25, subIdx=26] Fehlerzeitpunkt bit25   : 0 \n   - [idx=0x2a26, subIdx=27] Fehlerzaehler bit26      : 0 \n   - [idx=0x2a25, subIdx=27] Fehlerzeitpunkt bit26   : 0 \n   - [idx=0x2a26, subIdx=28] Fehlerzaehler bit27      : 0 \n   - [idx=0x2a25, subIdx=28] Fehlerzeitpunkt bit27   : 0 \n   - [idx=0x2a26, subIdx=29] Fehlerzaehler bit28      : 0 \n   - [idx=0x2a25, subIdx=29] Fehlerzeitpunkt bit28   : 0 \n   - [idx=0x2a26, subIdx=30] Fehlerzaehler bit29      : 0 \n   - [idx=0x2a25, subIdx=30] Fehlerzeitpunkt bit29   : 0 \n   - [idx=0x2a26, subIdx=31] Fehlerzaehler bit30      : 0 \n   - [idx=0x2a25, subIdx=31] Fehlerzeitpunkt bit30   : 0 \n   - [idx=0x2a26, subIdx=32] Fehlerzaehler bit31      : 0 \n   - [idx=0x2a25, subIdx=32] Fehlerzeitpunkt bit31   : 0 \n   - [idx=0x2c26, subIdx=01] Fehlerzaehler bit0       : 0 \n   - [idx=0x2c25, subIdx=01] Fehlerzeitpunkt bit0    : 0 \n   - [idx=0x2c26, subIdx=02] Fehlerzaehler bit1       : 0 \n   - [idx=0x2c25, subIdx=02] Fehlerzeitpunkt bit1    : 0 \n   - [idx=0x2c26, subIdx=03] Fehlerzaehler bit2       : 0 \n   - [idx=0x2c25, subIdx=03] Fehlerzeitpunkt bit2    : 0 \n   - [idx=0x2c26, subIdx=04] Fehlerzaehler bit3       : 0 \n   - [idx=0x2c25, subIdx=04] Fehlerzeitpunkt bit3    : 0 \n   - [idx=0x2c26, subIdx=05] Fehlerzaehler bit4       : 0 \n   - [idx=0x2c25, subIdx=05] Fehlerzeitpunkt bit4    : 0 \n   - [idx=0x2c26, subIdx=06] Fehlerzaehler bit5       : 0 \n   - [idx=0x2c25, subIdx=06] Fehlerzeitpunkt bit5    : 0 \n   - [idx=0x2c26, subIdx=07] Fehlerzaehler bit6       : 0 \n   - [idx=0x2c25, subIdx=07] Fehlerzeitpunkt bit6    : 0 \n   - [idx=0x2c26, subIdx=08] Fehlerzaehler bit7       : 0 \n   - [idx=0x2c25, subIdx=08] Fehlerzeitpunkt bit7    : 0 \n   - [idx=0x2c26, subIdx=09] Fehlerzaehler bit8       : 0 \n   - [idx=0x2c25, subIdx=09] Fehlerzeitpunkt bit8    : 0 \n   - [idx=0x2c26, subIdx=10] Fehlerzaehler bit9       : 0 \n   - [idx=0x2c25, subIdx=10] Fehlerzeitpunkt bit9    : 0 \n   - [idx=0x2c26, subIdx=11] Fehlerzaehler bit10      : 0 \n   - [idx=0x2c25, subIdx=11] Fehlerzeitpunkt bit10   : 0 \n   - [idx=0x2c26, subIdx=12] Fehlerzaehler bit11      : 0 \n   - [idx=0x2c25, subIdx=12] Fehlerzeitpunkt bit11   : 0 \n   - [idx=0x2c26, subIdx=13] Fehlerzaehler bit12      : 1 \n   - [idx=0x2c25, subIdx=13] Fehlerzeitpunkt bit12   : 12064165 \n   - [idx=0x2c26, subIdx=14] Fehlerzaehler bit13      : 0 \n   - [idx=0x2c25, subIdx=14] Fehlerzeitpunkt bit13   : 0 \n   - [idx=0x2c26, subIdx=15] Fehlerzaehler bit14      : 0 \n   - [idx=0x2c25, subIdx=15] Fehlerzeitpunkt bit14   : 0 \n   - [idx=0x2c26, subIdx=16] Fehlerzaehler bit15      : 0 \n   - [idx=0x2c25, subIdx=16] Fehlerzeitpunkt bit15   : 0 \n   - [idx=0x2c26, subIdx=17] Fehlerzaehler bit16      : 0 \n   - [idx=0x2c25, subIdx=17] Fehlerzeitpunkt bit16   : 0 \n   - [idx=0x2c26, subIdx=18] Fehlerzaehler bit17      : 0 \n   - [idx=0x2c25, subIdx=18] Fehlerzeitpunkt bit17   : 0 \n   - [idx=0x2c26, subIdx=19] Fehlerzaehler Komm.fehler: 0 \n   - [idx=0x2c25, subIdx=19] Fehlerzeitpunkt Komm.fe.: 0 \n   - [idx=0x2c26, subIdx=20] Fehlerzaehler bit19      : 0 \n   - [idx=0x2c25, subIdx=20] Fehlerzeitpunkt bit19   : 0 \n   - [idx=0x2c26, subIdx=21] Fehlerzaehler bit20      : 0 \n   - [idx=0x2c25, subIdx=21] Fehlerzeitpunkt bit20   : 0 \n   - [idx=0x2c26, subIdx=22] Fehlerzaehler bit21      : 0 \n   - [idx=0x2c25, subIdx=22] Fehlerzeitpunkt bit21   : 0 \n   - [idx=0x2c26, subIdx=23] Fehlerzaehler bit22      : 0 \n   - [idx=0x2c25, subIdx=23] Fehlerzeitpunkt bit22   : 0 \n   - [idx=0x2c26, subIdx=24] Fehlerzaehler bit23      : 0 \n   - [idx=0x2c25, subIdx=24] Fehlerzeitpunkt bit23   : 0 \n   - [idx=0x2c26, subIdx=25] Fehlerzaehler bit24      : 0 \n   - [idx=0x2c25, subIdx=25] Fehlerzeitpunkt bit24   : 0 \n   - [idx=0x2c26, subIdx=26] Fehlerzaehler bit25      : 0 \n   - [idx=0x2c25, subIdx=26] Fehlerzeitpunkt bit25   : 0 \n   - [idx=0x2c26, subIdx=27] Fehlerzaehler bit26      : 0 \n   - [idx=0x2c25, subIdx=27] Fehlerzeitpunkt bit26   : 0 \n   - [idx=0x2c26, subIdx=28] Fehlerzaehler bit27      : 0 \n   - [idx=0x2c25, subIdx=28] Fehlerzeitpunkt bit27   : 0 \n   - [idx=0x2c26, subIdx=29] Fehlerzaehler bit28      : 0 \n   - [idx=0x2c25, subIdx=29] Fehlerzeitpunkt bit28   : 0 \n   - [idx=0x2c26, subIdx=30] Fehlerzaehler bit29      : 0 \n   - [idx=0x2c25, subIdx=30] Fehlerzeitpunkt bit29   : 0 \n   - [idx=0x2c26, subIdx=31] Fehlerzaehler bit30      : 0 \n   - [idx=0x2c25, subIdx=31] Fehlerzeitpunkt bit30   : 0 \n   - [idx=0x2c26, subIdx=32] Fehlerzaehler bit31      : 0 \n   - [idx=0x2c25, subIdx=32] Fehlerzeitpunkt bit31   : 0 \n   - [idx=0x2221, subIdx=02] Aktueller Fehlerzustand: 0 \n   - [idx=0x2221, subIdx=03] Gespeicherter Fehlerzustand: 0 \n   - [idx=0x2221, subIdx=05] Aktueller Warnzustand: 0 \n   - [idx=0x2221, subIdx=06] Gespeicherter Warnzustand: 0 \n   - [idx=0x2421, subIdx=02] Aktueller Fehlerzustand: 0 \n   - [idx=0x2421, subIdx=03] Gespeicherter Fehlerzustand: 0 \n   - [idx=0x2421, subIdx=05] Aktueller Warnzustand: 0 \n   - [idx=0x2421, subIdx=06] Gespeicherter Warnzustand: 0 \n   - [idx=0x2621, subIdx=02] Aktueller Fehlerzustand: 0 \n   - [idx=0x2621, subIdx=03] Gespeicherter Fehlerzustand: 0 \n   - [idx=0x2621, subIdx=05] Aktueller Warnzustand: 0 \n   - [idx=0x2621, subIdx=06] Gespeicherter Warnzustand: 0 \n   - [idx=0x2821, subIdx=02] Aktueller Fehlerzustand: 0 \n   - [idx=0x2821, subIdx=03] Gespeicherter Fehlerzustand: 0 \n   - [idx=0x2821, subIdx=05] Aktueller Warnzustand: 0 \n   - [idx=0x2821, subIdx=06] Gespeicherter Warnzustand: 0 \n   - [idx=0x2a21, subIdx=02] Aktueller Fehlerzustand: 0 \n   - [idx=0x2a21, subIdx=03] Gespeicherter Fehlerzustand: 0 \n   - [idx=0x2a21, subIdx=05] Aktueller Warnzustand: 0 \n   - [idx=0x2a21, subIdx=06] Gespeicherter Warnzustand: 0 \n   - [idx=0x2c21, subIdx=02] Aktueller Fehlerzustand: 0 \n   - [idx=0x2c21, subIdx=03] Gespeicherter Fehlerzustand: 0 \n   - [idx=0x2c21, subIdx=05] Aktueller Warnzustand: 0 \n   - [idx=0x2c21, subIdx=06] Gespeicherter Warnzustand: 0 \n   - [idx=0x2227, subIdx=01] Fehlerhist. A1 F-Nummer1: 13 \n   - [idx=0x2227, subIdx=06] Fehlerhist. A1 F-Zaehl. 1: 1 \n   - [idx=0x2227, subIdx=02] Fehlerhist. A1 F-Nummer2: 0 \n   - [idx=0x2227, subIdx=07] Fehlerhist. A1 F-Zaehl. 2: 0 \n   - [idx=0x2227, subIdx=03] Fehlerhist. A1 F-Nummer3: 0 \n   - [idx=0x2227, subIdx=08] Fehlerhist. A1 F-Zaehl. 3: 0 \n   - [idx=0x2227, subIdx=04] Fehlerhist. A1 F-Nummer4: 0 \n   - [idx=0x2227, subIdx=09] Fehlerhist. A1 F-Zaehl. 4: 0 \n   - [idx=0x2227, subIdx=05] Fehlerhist. A1 F-Nummer5: 0 \n   - [idx=0x2227, subIdx=10] Fehlerhist. A1 F-Zaehl. 5: 0 \n   - [idx=0x2427, subIdx=01] Fehlerhist. A2 F-Nummer1: 13 \n   - [idx=0x2427, subIdx=06] Fehlerhist. A2 F-Zaehl. 1: 1 \n   - [idx=0x2427, subIdx=02] Fehlerhist. A2 F-Nummer2: 0 \n   - [idx=0x2427, subIdx=07] Fehlerhist. A2 F-Zaehl. 2: 0 \n   - [idx=0x2427, subIdx=03] Fehlerhist. A2 F-Nummer3: 0 \n   - [idx=0x2427, subIdx=08] Fehlerhist. A2 F-Zaehl. 3: 0 \n   - [idx=0x2427, subIdx=04] Fehlerhist. A2 F-Nummer4: 0 \n   - [idx=0x2427, subIdx=09] Fehlerhist. A2 F-Zaehl. 4: 0 \n   - [idx=0x2427, subIdx=05] Fehlerhist. A2 F-Nummer5: 0 \n   - [idx=0x2427, subIdx=10] Fehlerhist. A2 F-Zaehl. 5: 0 \n   - [idx=0x2627, subIdx=01] Fehlerhist. A3 F-Nummer1: 13 \n   - [idx=0x2627, subIdx=06] Fehlerhist. A3 F-Zaehl. 1: 1 \n   - [idx=0x2627, subIdx=02] Fehlerhist. A3 F-Nummer2: 0 \n   - [idx=0x2627, subIdx=07] Fehlerhist. A3 F-Zaehl. 2: 0 \n   - [idx=0x2627, subIdx=03] Fehlerhist. A3 F-Nummer3: 0 \n   - [idx=0x2627, subIdx=08] Fehlerhist. A3 F-Zaehl. 3: 0 \n   - [idx=0x2627, subIdx=04] Fehlerhist. A3 F-Nummer4: 0 \n   - [idx=0x2627, subIdx=09] Fehlerhist. A3 F-Zaehl. 4: 0 \n   - [idx=0x2627, subIdx=05] Fehlerhist. A3 F-Nummer5: 0 \n   - [idx=0x2627, subIdx=10] Fehlerhist. A3 F-Zaehl. 5: 0 \n   - [idx=0x2070, subIdx=01] KSK Fehler Historie 1   : \n   - [idx=0x2070, subIdx=02] KSK Fehler Historie 2   : \n   - [idx=0x2070, subIdx=03] KSK Fehler Historie 3   : \n   - [idx=0x2070, subIdx=04] KSK Fehler Historie 4   : \n   - [idx=0x2050, subIdx=00] Innenraumtemp.   (0.1 C): 320 \n   - [idx=0x2250, subIdx=00] Kuehlkoerpertemp.1 (0.1 C): 300 \n   - [idx=0x2450, subIdx=00] Kuehlkoerpertemp.2 (0.1 C): 290 \n   - [idx=0x2650, subIdx=00] Kuehlkoerpertemp.3 (0.1 C): 300 \n   - [idx=0x2850, subIdx=00] Kuehlkoerpertemp.1 (0.1 C): 300 \n   - [idx=0x2a50, subIdx=00] Kuehlkoerpertemp.2 (0.1 C): 290 \n   - [idx=0x2c50, subIdx=00] Kuehlkoerpertemp.3 (0.1 C): 300 \n   - [idx=0x2006, subIdx=01] Betriebszeit       (sek): 17470 \n   - [idx=0x2006, subIdx=02] Betriebszeit  (2^16 sek): 230 \n   - [idx=0x2006, subIdx=03] Einschaltzeit      (sek): 53730 \n   - [idx=0x2006, subIdx=04] Einschaltzeit (2^16 sek): 18 \n   - [idx=0x2008, subIdx=00] UZK                     : 294 \n   - [idx=0x2203, subIdx=02] Schaltfrequenz          : 1 \n   - [idx=0x2403, subIdx=02] Schaltfrequenz          : 1 \n   - [idx=0x2603, subIdx=02] Schaltfrequenz          : 1 \n   - [idx=0x2803, subIdx=02] Schaltfrequenz          : 1 \n   - [idx=0x2a03, subIdx=02] Schaltfrequenz          : 1 \n   - [idx=0x2c03, subIdx=02] Schaltfrequenz          : 1 \n   - [idx=0x2241, subIdx=01] Auslastung              : 0 \n   - [idx=0x2441, subIdx=01] Auslastung              : 0 \n   - [idx=0x2641, subIdx=01] Auslastung              : 0 \n   - [idx=0x2841, subIdx=01] Auslastung              : 0 \n   - [idx=0x2a41, subIdx=01] Auslastung              : 0 \n   - [idx=0x2c41, subIdx=01] Auslastung              : 0 \n   - [idx=0x2241, subIdx=02] Warnschwelle            : 32000 \n   - [idx=0x2241, subIdx=03] Fehlerschwelle          : 32768 \n   - [idx=0x2242, subIdx=01] Warnschwelle            : 830 \n   - [idx=0x2242, subIdx=02] Fehlerschwelle          : 850 \n   - [idx=0x2441, subIdx=02] Warnschwelle            : 32000 \n   - [idx=0x2441, subIdx=03] Fehlerschwelle          : 32768 \n   - [idx=0x2442, subIdx=01] Warnschwelle            : 830 \n   - [idx=0x2442, subIdx=02] Fehlerschwelle          : 850 \n   - [idx=0x2641, subIdx=02] Warnschwelle            : 32000 \n   - [idx=0x2641, subIdx=03] Fehlerschwelle          : 32768 \n   - [idx=0x2642, subIdx=01] Warnschwelle            : 830 \n   - [idx=0x2642, subIdx=02] Fehlerschwelle          : 850 \n   - [idx=0x2841, subIdx=02] Warnschwelle            : 32000 \n   - [idx=0x2841, subIdx=03] Fehlerschwelle          : 32768 \n   - [idx=0x2842, subIdx=01] Warnschwelle            : 830 \n   - [idx=0x2842, subIdx=02] Fehlerschwelle          : 850 \n   - [idx=0x2a41, subIdx=02] Warnschwelle            : 32000 \n   - [idx=0x2a41, subIdx=03] Fehlerschwelle          : 32768 \n   - [idx=0x2a42, subIdx=01] Warnschwelle            : 830 \n   - [idx=0x2a42, subIdx=02] Fehlerschwelle          : 850 \n   - [idx=0x2c41, subIdx=02] Warnschwelle            : 32000 \n   - [idx=0x2c41, subIdx=03] Fehlerschwelle          : 32768 \n   - [idx=0x2c42, subIdx=01] Warnschwelle            : 830 \n   - [idx=0x2c42, subIdx=02] Fehlerschwelle          : 850 \n   - [idx=0x2206, subIdx=01] servoparameter          : 7864 \n   - [idx=0x2206, subIdx=02] servoparameter          : 7536 \n   - [idx=0x2206, subIdx=03] servoparameter          : 7536 \n   - [idx=0x2206, subIdx=04] servoparameter          : 2621 \n   - [idx=0x2206, subIdx=05] servoparameter          : 2617 \n   - [idx=0x2206, subIdx=06] servoparameter          : 50 \n   - [idx=0x2208, subIdx=01] servoparameter          : -4032 \n   - [idx=0x2208, subIdx=02] servoparameter          : 0 \n   - [idx=0x2208, subIdx=03] servoparameter          : 6438 \n   - [idx=0x2208, subIdx=04] servoparameter          : 27852 \n   - [idx=0x2209, subIdx=01] servoparameter          : 1654 \n   - [idx=0x2209, subIdx=02] servoparameter          : 2270 \n   - [idx=0x2209, subIdx=03] servoparameter          : 1654 \n   - [idx=0x2209, subIdx=04] servoparameter          : 2270 \n   - [idx=0x2209, subIdx=05] servoparameter          : 2561 \n   - [idx=0x2209, subIdx=06] servoparameter          : 0 \n   - [idx=0x2209, subIdx=07] servoparameter          : 4465 \n   - [idx=0x2209, subIdx=08] servoparameter          : 2250 \n   - [idx=0x220b, subIdx=01] servoparameter          : 30618 \n   - [idx=0x220b, subIdx=02] servoparameter          : 33601 \n   - [idx=0x220b, subIdx=03] servoparameter          : 35880 \n   - [idx=0x220b, subIdx=04] servoparameter          : 35948 \n   - [idx=0x220b, subIdx=05] servoparameter          : 35681 \n   - [idx=0x220b, subIdx=06] servoparameter          : 35350 \n   - [idx=0x220b, subIdx=07] servoparameter          : 34973 \n   - [idx=0x220b, subIdx=08] servoparameter          : 34564 \n   - [idx=0x220b, subIdx=09] servoparameter          : 34137 \n   - [idx=0x220b, subIdx=10] servoparameter          : 33704 \n   - [idx=0x220b, subIdx=11] servoparameter          : 33276 \n   - [idx=0x220b, subIdx=12] servoparameter          : 32861 \n   - [idx=0x220b, subIdx=13] servoparameter          : 32465 \n   - [idx=0x220b, subIdx=14] servoparameter          : 32093 \n   - [idx=0x220b, subIdx=15] servoparameter          : 31747 \n   - [idx=0x220b, subIdx=16] servoparameter          : 31427 \n   - [idx=0x220b, subIdx=17] servoparameter          : 31131 \n   - [idx=0x220b, subIdx=18] servoparameter          : 30858 \n   - [idx=0x220b, subIdx=19] servoparameter          : 30604 \n   - [idx=0x220b, subIdx=20] servoparameter          : 30367 \n   - [idx=0x220b, subIdx=21] servoparameter          : 30143 \n   - [idx=0x220b, subIdx=22] servoparameter          : 29928 \n   - [idx=0x220b, subIdx=23] servoparameter          : 29722 \n   - [idx=0x220b, subIdx=24] servoparameter          : 29520 \n   - [idx=0x220b, subIdx=25] servoparameter          : 29322 \n   - [idx=0x220b, subIdx=26] servoparameter          : 29322 \n   - [idx=0x220b, subIdx=27] servoparameter          : 29322 \n   - [idx=0x220b, subIdx=28] servoparameter          : 29322 \n   - [idx=0x220b, subIdx=29] servoparameter          : 29322 \n   - [idx=0x220b, subIdx=30] servoparameter          : 29322 \n   - [idx=0x220b, subIdx=31] servoparameter          : 29322 \n   - [idx=0x220b, subIdx=32] servoparameter          : 29322 \n   - [idx=0x221d, subIdx=00] servoparameter          : 5038 \n   - [idx=0x2406, subIdx=01] servoparameter          : 7864 \n   - [idx=0x2406, subIdx=02] servoparameter          : 7536 \n   - [idx=0x2406, subIdx=03] servoparameter          : 7536 \n   - [idx=0x2406, subIdx=04] servoparameter          : 2621 \n   - [idx=0x2406, subIdx=05] servoparameter          : 2617 \n   - [idx=0x2406, subIdx=06] servoparameter          : 50 \n   - [idx=0x2408, subIdx=01] servoparameter          : -2688 \n   - [idx=0x2408, subIdx=02] servoparameter          : 0 \n   - [idx=0x2408, subIdx=03] servoparameter          : 6200 \n   - [idx=0x2408, subIdx=04] servoparameter          : 27852 \n   - [idx=0x2409, subIdx=01] servoparameter          : 1551 \n   - [idx=0x2409, subIdx=02] servoparameter          : 2908 \n   - [idx=0x2409, subIdx=03] servoparameter          : 1551 \n   - [idx=0x2409, subIdx=04] servoparameter          : 2908 \n   - [idx=0x2409, subIdx=05] servoparameter          : 2401 \n   - [idx=0x2409, subIdx=06] servoparameter          : 0 \n   - [idx=0x2409, subIdx=07] servoparameter          : 3102 \n   - [idx=0x2409, subIdx=08] servoparameter          : 2250 \n   - [idx=0x240b, subIdx=01] servoparameter          : 32663 \n   - [idx=0x240b, subIdx=02] servoparameter          : 37678 \n   - [idx=0x240b, subIdx=03] servoparameter          : 38318 \n   - [idx=0x240b, subIdx=04] servoparameter          : 37826 \n   - [idx=0x240b, subIdx=05] servoparameter          : 37201 \n   - [idx=0x240b, subIdx=06] servoparameter          : 36502 \n   - [idx=0x240b, subIdx=07] servoparameter          : 35782 \n   - [idx=0x240b, subIdx=08] servoparameter          : 35081 \n   - [idx=0x240b, subIdx=09] servoparameter          : 34431 \n   - [idx=0x240b, subIdx=10] servoparameter          : 33844 \n   - [idx=0x240b, subIdx=11] servoparameter          : 33325 \n   - [idx=0x240b, subIdx=12] servoparameter          : 32866 \n   - [idx=0x240b, subIdx=13] servoparameter          : 32456 \n   - [idx=0x240b, subIdx=14] servoparameter          : 32082 \n   - [idx=0x240b, subIdx=15] servoparameter          : 31733 \n   - [idx=0x240b, subIdx=16] servoparameter          : 31398 \n   - [idx=0x240b, subIdx=17] servoparameter          : 31071 \n   - [idx=0x240b, subIdx=18] servoparameter          : 30746 \n   - [idx=0x240b, subIdx=19] servoparameter          : 30422 \n   - [idx=0x240b, subIdx=20] servoparameter          : 30097 \n   - [idx=0x240b, subIdx=21] servoparameter          : 29773 \n   - [idx=0x240b, subIdx=22] servoparameter          : 29449 \n   - [idx=0x240b, subIdx=23] servoparameter          : 29126 \n   - [idx=0x240b, subIdx=24] servoparameter          : 28807 \n   - [idx=0x240b, subIdx=25] servoparameter          : 28491 \n   - [idx=0x240b, subIdx=26] servoparameter          : 28491 \n   - [idx=0x240b, subIdx=27] servoparameter          : 28491 \n   - [idx=0x240b, subIdx=28] servoparameter          : 28491 \n   - [idx=0x240b, subIdx=29] servoparameter          : 28491 \n   - [idx=0x240b, subIdx=30] servoparameter          : 28491 \n   - [idx=0x240b, subIdx=31] servoparameter          : 28491 \n   - [idx=0x240b, subIdx=32] servoparameter          : 28491 \n   - [idx=0x241d, subIdx=00] servoparameter          : 3370 \n   - [idx=0x2606, subIdx=01] servoparameter          : 6746 \n   - [idx=0x2606, subIdx=02] servoparameter          : 4455 \n   - [idx=0x2606, subIdx=03] servoparameter          : 4455 \n   - [idx=0x2606, subIdx=04] servoparameter          : 2621 \n   - [idx=0x2606, subIdx=05] servoparameter          : 2617 \n   - [idx=0x2606, subIdx=06] servoparameter          : 50 \n   - [idx=0x2608, subIdx=01] servoparameter          : -2407 \n   - [idx=0x2608, subIdx=02] servoparameter          : 0 \n   - [idx=0x2608, subIdx=03] servoparameter          : 5614 \n   - [idx=0x2608, subIdx=04] servoparameter          : 27852 \n   - [idx=0x2609, subIdx=01] servoparameter          : 2219 \n   - [idx=0x2609, subIdx=02] servoparameter          : 4530 \n   - [idx=0x2609, subIdx=03] servoparameter          : 2219 \n   - [idx=0x2609, subIdx=04] servoparameter          : 4530 \n   - [idx=0x2609, subIdx=05] servoparameter          : 3435 \n   - [idx=0x2609, subIdx=06] servoparameter          : 0 \n   - [idx=0x2609, subIdx=07] servoparameter          : 3822 \n   - [idx=0x2609, subIdx=08] servoparameter          : 2250 \n   - [idx=0x260b, subIdx=01] servoparameter          : 31548 \n   - [idx=0x260b, subIdx=02] servoparameter          : 37019 \n   - [idx=0x260b, subIdx=03] servoparameter          : 36711 \n   - [idx=0x260b, subIdx=04] servoparameter          : 35931 \n   - [idx=0x260b, subIdx=05] servoparameter          : 35024 \n   - [idx=0x260b, subIdx=06] servoparameter          : 34105 \n   - [idx=0x260b, subIdx=07] servoparameter          : 33255 \n   - [idx=0x260b, subIdx=08] servoparameter          : 32515 \n   - [idx=0x260b, subIdx=09] servoparameter          : 31886 \n   - [idx=0x260b, subIdx=10] servoparameter          : 31348 \n   - [idx=0x260b, subIdx=11] servoparameter          : 30873 \n   - [idx=0x260b, subIdx=12] servoparameter          : 30433 \n   - [idx=0x260b, subIdx=13] servoparameter          : 30010 \n   - [idx=0x260b, subIdx=14] servoparameter          : 29592 \n   - [idx=0x260b, subIdx=15] servoparameter          : 29175 \n   - [idx=0x260b, subIdx=16] servoparameter          : 29175 \n   - [idx=0x260b, subIdx=17] servoparameter          : 29175 \n   - [idx=0x260b, subIdx=18] servoparameter          : 29175 \n   - [idx=0x260b, subIdx=19] servoparameter          : 29175 \n   - [idx=0x260b, subIdx=20] servoparameter          : 29175 \n   - [idx=0x260b, subIdx=21] servoparameter          : 29175 \n   - [idx=0x260b, subIdx=22] servoparameter          : 29175 \n   - [idx=0x260b, subIdx=23] servoparameter          : 29175 \n   - [idx=0x260b, subIdx=24] servoparameter          : 29175 \n   - [idx=0x260b, subIdx=25] servoparameter          : 29175 \n   - [idx=0x260b, subIdx=26] servoparameter          : 29175 \n   - [idx=0x260b, subIdx=27] servoparameter          : 29175 \n   - [idx=0x260b, subIdx=28] servoparameter          : 29175 \n   - [idx=0x260b, subIdx=29] servoparameter          : 29175 \n   - [idx=0x260b, subIdx=30] servoparameter          : 29175 \n   - [idx=0x260b, subIdx=31] servoparameter          : 29175 \n   - [idx=0x260b, subIdx=32] servoparameter          : 29175 \n   - [idx=0x261d, subIdx=00] servoparameter          : 3009 \n   - [idx=0x2806, subIdx=01] servoparameter          : 6746 \n   - [idx=0x2806, subIdx=02] servoparameter          : 2489 \n   - [idx=0x2806, subIdx=03] servoparameter          : 2489 \n   - [idx=0x2806, subIdx=04] servoparameter          : 2621 \n   - [idx=0x2806, subIdx=05] servoparameter          : 2487 \n   - [idx=0x2806, subIdx=06] servoparameter          : 50 \n   - [idx=0x2808, subIdx=01] servoparameter          : -1758 \n   - [idx=0x2808, subIdx=02] servoparameter          : 0 \n   - [idx=0x2808, subIdx=03] servoparameter          : 8968 \n   - [idx=0x2808, subIdx=04] servoparameter          : 27852 \n   - [idx=0x2809, subIdx=01] servoparameter          : 1808 \n   - [idx=0x2809, subIdx=02] servoparameter          : 10680 \n   - [idx=0x2809, subIdx=03] servoparameter          : 1808 \n   - [idx=0x2809, subIdx=04] servoparameter          : 10680 \n   - [idx=0x2809, subIdx=05] servoparameter          : 2799 \n   - [idx=0x2809, subIdx=06] servoparameter          : 0 \n   - [idx=0x2809, subIdx=07] servoparameter          : 2330 \n   - [idx=0x2809, subIdx=08] servoparameter          : 2250 \n   - [idx=0x280b, subIdx=01] servoparameter          : 30755 \n   - [idx=0x280b, subIdx=02] servoparameter          : 36081 \n   - [idx=0x280b, subIdx=03] servoparameter          : 35029 \n   - [idx=0x280b, subIdx=04] servoparameter          : 33692 \n   - [idx=0x280b, subIdx=05] servoparameter          : 32420 \n   - [idx=0x280b, subIdx=06] servoparameter          : 31379 \n   - [idx=0x280b, subIdx=07] servoparameter          : 30561 \n   - [idx=0x280b, subIdx=08] servoparameter          : 29880 \n   - [idx=0x280b, subIdx=09] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=10] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=11] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=12] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=13] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=14] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=15] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=16] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=17] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=18] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=19] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=20] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=21] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=22] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=23] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=24] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=25] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=26] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=27] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=28] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=29] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=30] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=31] servoparameter          : 29256 \n   - [idx=0x280b, subIdx=32] servoparameter          : 29256 \n   - [idx=0x281d, subIdx=00] servoparameter          : 2197 \n   - [idx=0x2a06, subIdx=01] servoparameter          : 6746 \n   - [idx=0x2a06, subIdx=02] servoparameter          : 2489 \n   - [idx=0x2a06, subIdx=03] servoparameter          : 2489 \n   - [idx=0x2a06, subIdx=04] servoparameter          : 2621 \n   - [idx=0x2a06, subIdx=05] servoparameter          : 2487 \n   - [idx=0x2a06, subIdx=06] servoparameter          : 50 \n   - [idx=0x2a08, subIdx=01] servoparameter          : -1758 \n   - [idx=0x2a08, subIdx=02] servoparameter          : 0 \n   - [idx=0x2a08, subIdx=03] servoparameter          : 8968 \n   - [idx=0x2a08, subIdx=04] servoparameter          : 27852 \n   - [idx=0x2a09, subIdx=01] servoparameter          : 1808 \n   - [idx=0x2a09, subIdx=02] servoparameter          : 10680 \n   - [idx=0x2a09, subIdx=03] servoparameter          : 1808 \n   - [idx=0x2a09, subIdx=04] servoparameter          : 10680 \n   - [idx=0x2a09, subIdx=05] servoparameter          : 2799 \n   - [idx=0x2a09, subIdx=06] servoparameter          : 0 \n   - [idx=0x2a09, subIdx=07] servoparameter          : 2330 \n   - [idx=0x2a09, subIdx=08] servoparameter          : 2250 \n   - [idx=0x2a0b, subIdx=01] servoparameter          : 30755 \n   - [idx=0x2a0b, subIdx=02] servoparameter          : 36081 \n   - [idx=0x2a0b, subIdx=03] servoparameter          : 35029 \n   - [idx=0x2a0b, subIdx=04] servoparameter          : 33692 \n   - [idx=0x2a0b, subIdx=05] servoparameter          : 32420 \n   - [idx=0x2a0b, subIdx=06] servoparameter          : 31379 \n   - [idx=0x2a0b, subIdx=07] servoparameter          : 30561 \n   - [idx=0x2a0b, subIdx=08] servoparameter          : 29880 \n   - [idx=0x2a0b, subIdx=09] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=10] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=11] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=12] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=13] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=14] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=15] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=16] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=17] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=18] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=19] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=20] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=21] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=22] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=23] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=24] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=25] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=26] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=27] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=28] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=29] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=30] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=31] servoparameter          : 29256 \n   - [idx=0x2a0b, subIdx=32] servoparameter          : 29256 \n   - [idx=0x2a1d, subIdx=00] servoparameter          : 2197 \n   - [idx=0x2c06, subIdx=01] servoparameter          : 6746 \n   - [idx=0x2c06, subIdx=02] servoparameter          : 2489 \n   - [idx=0x2c06, subIdx=03] servoparameter          : 2489 \n   - [idx=0x2c06, subIdx=04] servoparameter          : 2621 \n   - [idx=0x2c06, subIdx=05] servoparameter          : 2487 \n   - [idx=0x2c06, subIdx=06] servoparameter          : 50 \n   - [idx=0x2c08, subIdx=01] servoparameter          : -1758 \n   - [idx=0x2c08, subIdx=02] servoparameter          : 0 \n   - [idx=0x2c08, subIdx=03] servoparameter          : 8968 \n   - [idx=0x2c08, subIdx=04] servoparameter          : 27852 \n   - [idx=0x2c09, subIdx=01] servoparameter          : 1808 \n   - [idx=0x2c09, subIdx=02] servoparameter          : 10680 \n   - [idx=0x2c09, subIdx=03] servoparameter          : 1808 \n   - [idx=0x2c09, subIdx=04] servoparameter          : 10680 \n   - [idx=0x2c09, subIdx=05] servoparameter          : 2799 \n   - [idx=0x2c09, subIdx=06] servoparameter          : 0 \n   - [idx=0x2c09, subIdx=07] servoparameter          : 2330 \n   - [idx=0x2c09, subIdx=08] servoparameter          : 2250 \n   - [idx=0x2c0b, subIdx=01] servoparameter          : 30755 \n   - [idx=0x2c0b, subIdx=02] servoparameter          : 36081 \n   - [idx=0x2c0b, subIdx=03] servoparameter          : 35029 \n   - [idx=0x2c0b, subIdx=04] servoparameter          : 33692 \n   - [idx=0x2c0b, subIdx=05] servoparameter          : 32420 \n   - [idx=0x2c0b, subIdx=06] servoparameter          : 31379 \n   - [idx=0x2c0b, subIdx=07] servoparameter          : 30561 \n   - [idx=0x2c0b, subIdx=08] servoparameter          : 29880 \n   - [idx=0x2c0b, subIdx=09] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=10] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=11] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=12] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=13] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=14] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=15] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=16] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=17] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=18] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=19] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=20] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=21] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=22] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=23] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=24] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=25] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=26] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=27] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=28] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=29] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=30] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=31] servoparameter          : 29256 \n   - [idx=0x2c0b, subIdx=32] servoparameter          : 29256 \n   - [idx=0x2c1d, subIdx=00] servoparameter          : 2197 \n + CIB [Slave-ID=0]: \n   - [idx=0x1008, subIdx=00] Manufacturer Device Name (Strin: CIB-SR (00-188-812) \n   - [idx=0x1009, subIdx=00] Manufacturer Hardware Version (: V1.0.2-0 \n   - [idx=0x100a, subIdx=00] Manufacturer Software Version (: V2.0.7-0 \n   - [idx=0x1018, subIdx=01] Vendor ID                      : 0x000060c8 \n   - [idx=0x1018, subIdx=02] Product Code                   : 0x00000003 \n   - [idx=0x1018, subIdx=03] Revision Number                : 0x00000000 \n   - [idx=0x1018, subIdx=04] Serial Number                  : 0x000014a3 \n   - [idx=0x2000, subIdx=00] CIB Status                     : 0x0078 \n   - [idx=0x2001, subIdx=00] CIB Error Code                 : 0x0000 \n   - [idx=0x2003, subIdx=00] Input[1..8] Value              : 0x20 \n   - [idx=0x2004, subIdx=01] Input 1 Value                  : 0x00 \n   - [idx=0x2004, subIdx=02] Input 2 Value                  : 0x00 \n   - [idx=0x2004, subIdx=03] Input 3 Value                  : 0x00 \n   - [idx=0x2004, subIdx=04] Input 4 Value                  : 0x00 \n   - [idx=0x2004, subIdx=05] Input 5 Value                  : 0x00 \n   - [idx=0x2004, subIdx=06] Input 6 Value                  : 0x01 \n   - [idx=0x2004, subIdx=07] Input 7 Value                  : 0x00 \n   - [idx=0x2004, subIdx=08] Input 8 Value                  : 0x00 \n   - [idx=0x200d, subIdx=00] Sync RoboTeam 1588 Time 64 Bit : 0x0012d1ec2453e788 \n   - [idx=0x200f, subIdx=01] 1588 Timestamp ACTUAL          : 0x0000000000000000 \n   - [idx=0x200f, subIdx=02] 1588 TimeStamp DESIRED         : 0x0000000000000000 \n   - [idx=0x200f, subIdx=03] EtherCAT Timestamp             : 0x0000000000000000 \n   - [idx=0x2011, subIdx=00] Sync RoboTeam 1588 Control     : 0x00000001 \n   - [idx=0x2012, subIdx=00] Sync RoboTeam 1588 Drift       : \n   - [idx=0x2013, subIdx=01] Port[0..6] Link Status         : 0x00 \n   - [idx=0x2013, subIdx=02] Port[0..6] Speed               : 0x00 \n   - [idx=0x2013, subIdx=03] Port[0..6] Duplex              : 0x00 \n   - [idx=0x2014, subIdx=01] Port 0 Rx Counter              : 0x0000 \n   - [idx=0x2014, subIdx=02] Port 1 Rx Counter              : 0x0000 \n   - [idx=0x2014, subIdx=03] Port 2 Rx Counter              : 0x0000 \n   - [idx=0x2014, subIdx=04] Port 3 Rx Counter              : 0x0000 \n   - [idx=0x2014, subIdx=05] Port 4 Rx Counter              : 0x0000 \n   - [idx=0x2014, subIdx=06] Port 5 Rx Counter              : 0x0000 \n   - [idx=0x2014, subIdx=07] Port 6 Rx Counter              : 0x0000 \n   - [idx=0x2014, subIdx=08] Port 0 Tx Counter              : 0x0000 \n   - [idx=0x2014, subIdx=09] Port 1 Tx Counter              : 0x0000 \n   - [idx=0x2014, subIdx=10] Port 2 Tx Counter              : 0x0000 \n   - [idx=0x2014, subIdx=11] Port 3 Tx Counter              : 0x0000 \n   - [idx=0x2014, subIdx=12] Port 4 Tx Counter              : 0x0000 \n   - [idx=0x2014, subIdx=13] Port 5 Tx Counter              : 0x0000 \n   - [idx=0x2014, subIdx=14] Port 6 Tx Counter              : 0x0000 \n   - [idx=0x2016, subIdx=01] Fan Speed Cabinet Outside Actua: 0x0000 \n   - [idx=0x2016, subIdx=02] Fan Speed Cabinet Inside Actual: 0x06ea \n   - [idx=0x2016, subIdx=03] Fan Speed KPC Actual           : 0x0000 \n   - [idx=0x2017, subIdx=00] Fan Speed Cabinet Outside Desir: 0x0f \n   - [idx=0x2018, subIdx=01] Status Ballast Resistor Sensor : 0x00 \n   - [idx=0x2018, subIdx=02] Status CIB Sensor              : 0x00 \n   - [idx=0x2018, subIdx=03] Temperature Ballast Resistor Se: 0x01aa \n   - [idx=0x2018, subIdx=04] Temperature CIB Sensor         : 0x0131 \n   - [idx=0x201a, subIdx=07] Voltage VCC 2V5 [mV]           : 0x09d8 \n   - [idx=0x201a, subIdx=08] Voltage VCC 1V2 [mV]           : 0x04ac \n   - [idx=0x201a, subIdx=09] Fast Measure Working Counter   : 0x00 \n   - [idx=0x201a, subIdx=10] Filesystem State               : 0x01 \n   - [idx=0x201a, subIdx=11] FPGA Port 09 Speed             : 0x00 \n   - [idx=0x201a, subIdx=12] FPGA Port 10 Speed             : 0x00 \n   - [idx=0x2020, subIdx=01] P0 (SION) Link Status          : 0x0b \n   - [idx=0x2020, subIdx=13] P0 (SION) In RxErr             : 0x00000000 \n   - [idx=0x2020, subIdx=14] P0 (SION) In FCSErr            : 0x00000000 \n   - [idx=0x2021, subIdx=01] P1 (X42) Link Status           : 0x0b \n   - [idx=0x2021, subIdx=13] P1 (X42) In RxErr              : 0x00000000 \n   - [idx=0x2021, subIdx=14] P1 (X42) In FCSErr             : 0x00000000 \n   - [idx=0x2022, subIdx=01] P2 (X43) Link Status           : 0x00 \n   - [idx=0x2022, subIdx=13] P2 (X43) In RxErr              : 0x00000000 \n   - [idx=0x2022, subIdx=14] P2 (X43) In FCSErr             : 0x00000000 \n   - [idx=0x2023, subIdx=01] P3 (X44) Link Status           : 0x00 \n   - [idx=0x2023, subIdx=13] P3 (X44) In RxErr              : 0x00000000 \n   - [idx=0x2023, subIdx=14] P3 (X44) In FCSErr             : 0x00000000 \n   - [idx=0x2024, subIdx=01] P4 (X47) Link Status           : \n   - [idx=0x2024, subIdx=13] P4 (X47) In RxErr              : \n   - [idx=0x2024, subIdx=14] P4 (X47) In FCSErr             : \n   - [idx=0x2028, subIdx=01] P8 (X41) Link Status           : 0x0d \n   - [idx=0x2028, subIdx=13] P8 (X41) In RxErr              : 0x00000000 \n   - [idx=0x2028, subIdx=14] P8 (X41) In FCSErr             : 0x00000000 \n   - [idx=0x2029, subIdx=01] P9 (X45) Link Status           : 0x00 \n   - [idx=0x2029, subIdx=13] P9 (X45) In RxErr              : 0x00000000 \n   - [idx=0x2029, subIdx=14] P9 (X45) In FCSErr             : 0x00000000 \n   - [idx=0x202a, subIdx=01] P10 (X46) Link Status          : 0x00 \n   - [idx=0x202a, subIdx=13] P10 (X46) In RxErr             : 0x00000000 \n   - [idx=0x202a, subIdx=14] P10 (X46) In FCSErr            : 0x00000000 \n   - [idx=0x2ffe, subIdx=01] Batch Number                   : 0x0001 \n   - [idx=0x2ffe, subIdx=02] Producer ID                    : 0x00000012 \n   - [idx=0x2ffe, subIdx=03] Production Date                : 0x00150324 \n   - [idx=0x2ffe, subIdx=04] Tester ID                      : 0x01 \n   - [idx=0x2ffe, subIdx=05] Test Date                      : 0x00150324 \n   - [idx=0x2ffe, subIdx=06] Tester HW Version              : 0x0000 \n   - [idx=0x2ffe, subIdx=07] Tester SW Version              : 0x0000 \n   - [idx=0x2ffe, subIdx=08] Production Data 1              : 0xffffffff \n   - [idx=0x2ffe, subIdx=09] Production Data 2              : 0xffffffff \n   - [idx=0x2ffe, subIdx=10] Production Data 3              : 0xffffffff \n   - [idx=0x2ffe, subIdx=11] Production Data 4              : 0xffffffff \n   - [idx=0x2fff, subIdx=01] Bootloader                     : 0x2070 \n   - [idx=0x2fff, subIdx=02] Applikation                    : 0x2070 \n   - [idx=0x2fff, subIdx=03] FPGA                           : 0x2051 \n + RDC [Slave-ID=1]: \n   - [idx=0x1008, subIdx=00] Device-Name             : RDC (00-200-655) \n   - [idx=0x1009, subIdx=00] HW-Version              : V1.0.3-0 \n   - [idx=0x100a, subIdx=00] SW-Version              : V1.3.2-1 \n   - [idx=0x1018, subIdx=03] EtherCAT Revision       : 0x00000000 \n   - [idx=0x1018, subIdx=04] Seriennummer            : 35078 \n   - [idx=0x2200, subIdx=04] A1 Positionsstatus      : 0x03 \n   - [idx=0x2200, subIdx=05] A1 Interne Position     : 0xfffffffffff9e7f9 \n   - [idx=0x2200, subIdx=07] A1 Justage Offset       : 0x0000000000061806 \n   - [idx=0x2200, subIdx=08] A1 Temp. Sensor Typ     : 1 \n   - [idx=0x2200, subIdx=09] A1 Temperaturstatus     : 0 \n   - [idx=0x2200, subIdx=10] A1 Temperatur           : 300 \n   - [idx=0x2210, subIdx=04] A2 Positionsstatus      : 0x03 \n   - [idx=0x2210, subIdx=05] A2 Interne Position     : 0xfffffffffff7bed6 \n   - [idx=0x2210, subIdx=07] A2 Justage Offset       : 0x0000000000264126 \n   - [idx=0x2210, subIdx=08] A2 Temp. Sensor Typ     : 1 \n   - [idx=0x2210, subIdx=09] A2 Temperaturstatus     : 0 \n   - [idx=0x2210, subIdx=10] A2 Temperatur           : 296 \n   - [idx=0x2220, subIdx=04] A3 Positionsstatus      : 0x03 \n   - [idx=0x2220, subIdx=05] A3 Interne Position     : 0x000000000002e88b \n   - [idx=0x2220, subIdx=07] A3 Justage Offset       : 0xffffffffffe08c22 \n   - [idx=0x2220, subIdx=08] A3 Temp. Sensor Typ     : 1 \n   - [idx=0x2220, subIdx=09] A3 Temperaturstatus     : 0 \n   - [idx=0x2220, subIdx=10] A3 Temperatur           : 301 \n   - [idx=0x2230, subIdx=04] A4 Positionsstatus      : 0x03 \n   - [idx=0x2230, subIdx=05] A4 Interne Position     : 0xfffffffffffec8aa \n   - [idx=0x2230, subIdx=07] A4 Justage Offset       : 0x000000000000fa15 \n   - [idx=0x2230, subIdx=08] A4 Temp. Sensor Typ     : 1 \n   - [idx=0x2230, subIdx=09] A4 Temperaturstatus     : 0 \n   - [idx=0x2230, subIdx=10] A4 Temperatur           : 299 \n   - [idx=0x2240, subIdx=04] A5 Positionsstatus      : 0x03 \n   - [idx=0x2240, subIdx=05] A5 Interne Position     : 0xfffffffffffe9047 \n   - [idx=0x2240, subIdx=07] A5 Justage Offset       : 0xfffffffffffae5ac \n   - [idx=0x2240, subIdx=08] A5 Temp. Sensor Typ     : 1 \n   - [idx=0x2240, subIdx=09] A5 Temperaturstatus     : 0 \n   - [idx=0x2240, subIdx=10] A5 Temperatur           : 299 \n   - [idx=0x2250, subIdx=04] A6 Positionsstatus      : 0x03 \n   - [idx=0x2250, subIdx=05] A6 Interne Position     : 0x000000000015af4e \n   - [idx=0x2250, subIdx=07] A6 Justage Offset       : 0xffffffffffea36ec \n   - [idx=0x2260, subIdx=08] A6 Temp. Sensor Typ     : 1 \n   - [idx=0x2250, subIdx=09] A6 Temperaturstatus     : 0 \n   - [idx=0x2250, subIdx=10] A6 Temperatur           : 298 \n   - [idx=0x2260, subIdx=04] A7 Positionsstatus      : 0x2e \n   - [idx=0x2260, subIdx=05] A7 Interne Position     : 0x0000000000004838 \n   - [idx=0x2260, subIdx=07] A7 Justage Offset       : 0x0000000000000000 \n   - [idx=0x2260, subIdx=08] A7 Temp. Sensor Typ     : 1 \n   - [idx=0x2260, subIdx=09] A7 Temperaturstatus     : 2 \n   - [idx=0x2260, subIdx=10] A7 Temperatur           : 1023 \n   - [idx=0x2270, subIdx=04] A8 Positionsstatus      : 0x2e \n   - [idx=0x2270, subIdx=05] A8 Interne Position     : 0x0000000000004f2e \n   - [idx=0x2270, subIdx=07] A8 Justage Offset       : 0x0000000000000000 \n   - [idx=0x2270, subIdx=08] A8 Temp. Sensor Typ     : 1 \n   - [idx=0x2270, subIdx=09] A8 Temperaturstatus     : 2 \n   - [idx=0x2270, subIdx=10] A8 Temperatur           : 1023 \n   - [idx=0x2100, subIdx=01] Ref. Sinus 1 Amplitude  : 192 \n   - [idx=0x2100, subIdx=02] Ref. Sinus 1 Phase      : 0 \n   - [idx=0x2110, subIdx=01] Ref. Sinus 2 Amplitude  : 192 \n   - [idx=0x2110, subIdx=02] Ref. Sinus 2 Phase      : 0 \n   - [idx=0x2120, subIdx=01] Ref. Sinus 3 Amplitude  : 192 \n   - [idx=0x2120, subIdx=02] Ref. Sinus 3 Phase      : 0 \n   - [idx=0x2130, subIdx=01] Ref. Sinus 4 Amplitude  : 192 \n   - [idx=0x2130, subIdx=02] Ref. Sinus 4 Phase      : 0 \n   - [idx=0x2002, subIdx=02] VMT Temp 1           (K): 320 \n   - [idx=0x2002, subIdx=04] VMT Temp 2           (K): 319 \n   - [idx=0x2001, subIdx=01] FSoE Slave Addresse     : 0x0002 \n   - [idx=0x2001, subIdx=02] FSoE Status             : 0x36 \n   - [idx=0x2001, subIdx=03] FSoE Letzter Fehler     : 0x00 \n",
+    "Type": "#KR6R700 C4SR FLR",
+    "Decomposer": "There is a file sharing violation. A different process might be using the file. [ C:\\KRC\\USER\\ProjectRoot\\Agilus_Cloud_8_3_23\\Agilus_Cloud_8_3_23.wvs ]",
+    "Tool_Name": {
+        "CHAR": [
+            "SEN_TOOL",
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            "exchangable disk",
+            {
+                "#whitespace": " "
+            },
+            "Safe-Ref",
+            {
+                "#whitespace": " "
+            },
+            "NULL"
+        ]
+    },
+    "Tool_Data": {
+        "FRAME": [
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "100",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            }
+        ]
+    },
+    "Tool_Load": {
+        "LOAD": [
+            {
+                "M": "0.2",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "100",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "20",
+                    "Y": "20",
+                    "Z": "20"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "-1",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            },
+            {
+                "M": "0",
+                "CM": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0",
+                    "A": "0",
+                    "B": "0",
+                    "C": "0"
+                },
+                "J": {
+                    "X": "0",
+                    "Y": "0",
+                    "Z": "0"
+                }
+            }
+        ]
+    },
+    "Tool_Type": {
+        "ENUM": [
+            "#BASE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#BASE",
+            "#NONE",
+            "#BASE",
+            "#NONE",
+            "#BASE"
+        ]
+    },
+    "Base_Data": {
+        "FRAME": [
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            },
+            {
+                "X": "0",
+                "Y": "0",
+                "Z": "0",
+                "A": "0",
+                "B": "0",
+                "C": "0"
+            }
+        ]
+    },
+    "Base_Name": {
+        "CHAR": [
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            {
+                "#whitespace": " "
+            },
+            "Calculated Basemovement",
+            "NULL"
+        ]
+    },
+    "Base_Type": {
+        "ENUM": [
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#NONE",
+            "#BASE",
+            "#BASE"
+        ]
+    },
+    "CheckSumActivation1": "3",
+    "CheckSumActivation2": "15",
+    "CheckSumActivation3": "2",
+    "CheckSumActivation4": "3",
+    "CheckSumActivation5": "6",
+    "CheckSumActivation6": "0",
+    "CheckSumActivation7": "9",
+    "CheckSumActivation8": "1",
+    "TimeStamp": "1474297952698"
+}

@@ -1,7 +1,8 @@
 /**
  * Created by armin on 22.09.16.
  */
-var app = require('express')();
+var express = require('express');
+var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
@@ -12,9 +13,8 @@ io.on('connection', function (socket) {
     });
 });
 
-app.get('/', function (req, res) {
-    res.render('../frontend/');
-});
+
+app.use('/', express.static('../frontend'));
 
 app.post('/:robot/:axis/:degree', function (req, res) {
     io.emit('move', {

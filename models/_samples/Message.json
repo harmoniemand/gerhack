@@ -1,0 +1,15 @@
+{
+    "RobotName": "ROB_B40_T01",
+    "Serial": "503870",
+    "HmiMessages": {
+        "Message": {
+            "@EventType": "Removed",
+            "@Nr": "14004",
+            "@Type": "State",
+            "@Text": "Kein Kontakt zum Power Management Service",
+            "@Source": "P_15",
+            "@DateTime": "9/19/2016 5:12:15 PM"
+        }
+    },
+    "TimeStamp": "1474297928755"
+}

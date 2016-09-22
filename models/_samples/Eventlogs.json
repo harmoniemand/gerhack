@@ -1,0 +1,120 @@
+{
+    "RobotName": "ROB_B40_T01",
+    "Serial": "503870",
+    "EventLogsSmartHMI": {
+        "EventLogEntry": [
+            {
+                "@Type": "Warning",
+                "DateTime": "9/19/2016 5:13:52 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "FrameworkResourceAccessor: Resource key \"CrossMeld#//$OPTION.DAT\" cannot be found for language \"de-DE\"!"
+            },
+            {
+                "@Type": "Error",
+                "DateTime": "9/19/2016 5:13:52 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "OPTION.DAT' or one of its dependencies. The system cannot find the file specified. (FileNotFoundException)\r\nFusionLog=\"WRN: Assembly binding logging is turned OFF.\r\nTo enable assembly bind failure logging, set the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog] (DWORD) to 1.\r\nNote: There is some performance penalty associated with assembly bind failure logging.\r\nTo turn this feature off, remove the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog].\"\r\nSource=\"mscorlib\"\r\n"
+            },
+            {
+                "@Type": "Warning",
+                "DateTime": "9/19/2016 5:13:51 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "FrameworkResourceAccessor: Resource key \"CrossMeld#//$OPTION.DAT\" cannot be found for language \"de-DE\"!"
+            },
+            {
+                "@Type": "Error",
+                "DateTime": "9/19/2016 5:13:51 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "OPTION.DAT' or one of its dependencies. The system cannot find the file specified. (FileNotFoundException)\r\nFusionLog=\"WRN: Assembly binding logging is turned OFF.\r\nTo enable assembly bind failure logging, set the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog] (DWORD) to 1.\r\nNote: There is some performance penalty associated with assembly bind failure logging.\r\nTo turn this feature off, remove the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog].\"\r\nSource=\"mscorlib\"\r\n"
+            },
+            {
+                "@Type": "Warning",
+                "DateTime": "9/19/2016 5:13:50 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "FrameworkResourceAccessor: Resource key \"CrossMeld#//$OPTION.DAT\" cannot be found for language \"de-DE\"!"
+            },
+            {
+                "@Type": "Error",
+                "DateTime": "9/19/2016 5:13:50 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "OPTION.DAT' or one of its dependencies. The system cannot find the file specified. (FileNotFoundException)\r\nFusionLog=\"WRN: Assembly binding logging is turned OFF.\r\nTo enable assembly bind failure logging, set the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog] (DWORD) to 1.\r\nNote: There is some performance penalty associated with assembly bind failure logging.\r\nTo turn this feature off, remove the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog].\"\r\nSource=\"mscorlib\"\r\n"
+            },
+            {
+                "@Type": "Warning",
+                "DateTime": "9/19/2016 5:13:49 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "FrameworkResourceAccessor: Resource key \"CrossMeld#//$OPTION.DAT\" cannot be found for language \"de-DE\"!"
+            },
+            {
+                "@Type": "Error",
+                "DateTime": "9/19/2016 5:13:49 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "OPTION.DAT' or one of its dependencies. The system cannot find the file specified. (FileNotFoundException)\r\nFusionLog=\"WRN: Assembly binding logging is turned OFF.\r\nTo enable assembly bind failure logging, set the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog] (DWORD) to 1.\r\nNote: There is some performance penalty associated with assembly bind failure logging.\r\nTo turn this feature off, remove the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog].\"\r\nSource=\"mscorlib\"\r\n"
+            },
+            {
+                "@Type": "Warning",
+                "DateTime": "9/19/2016 5:13:48 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "FrameworkResourceAccessor: Resource key \"CrossMeld#//$OPTION.DAT\" cannot be found for language \"de-DE\"!"
+            },
+            {
+                "@Type": "Error",
+                "DateTime": "9/19/2016 5:13:48 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "OPTION.DAT' or one of its dependencies. The system cannot find the file specified. (FileNotFoundException)\r\nFusionLog=\"WRN: Assembly binding logging is turned OFF.\r\nTo enable assembly bind failure logging, set the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog] (DWORD) to 1.\r\nNote: There is some performance penalty associated with assembly bind failure logging.\r\nTo turn this feature off, remove the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog].\"\r\nSource=\"mscorlib\"\r\n"
+            },
+            {
+                "@Type": "Warning",
+                "DateTime": "9/19/2016 5:13:47 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "FrameworkResourceAccessor: Resource key \"CrossMeld#//$OPTION.DAT\" cannot be found for language \"de-DE\"!"
+            },
+            {
+                "@Type": "Error",
+                "DateTime": "9/19/2016 5:13:47 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "OPTION.DAT' or one of its dependencies. The system cannot find the file specified. (FileNotFoundException)\r\nFusionLog=\"WRN: Assembly binding logging is turned OFF.\r\nTo enable assembly bind failure logging, set the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog] (DWORD) to 1.\r\nNote: There is some performance penalty associated with assembly bind failure logging.\r\nTo turn this feature off, remove the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog].\"\r\nSource=\"mscorlib\"\r\n"
+            },
+            {
+                "@Type": "Warning",
+                "DateTime": "9/19/2016 5:13:46 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "FrameworkResourceAccessor: Resource key \"CrossMeld#//$OPTION.DAT\" cannot be found for language \"de-DE\"!"
+            },
+            {
+                "@Type": "Error",
+                "DateTime": "9/19/2016 5:13:46 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "OPTION.DAT' or one of its dependencies. The system cannot find the file specified. (FileNotFoundException)\r\nFusionLog=\"WRN: Assembly binding logging is turned OFF.\r\nTo enable assembly bind failure logging, set the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog] (DWORD) to 1.\r\nNote: There is some performance penalty associated with assembly bind failure logging.\r\nTo turn this feature off, remove the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog].\"\r\nSource=\"mscorlib\"\r\n"
+            },
+            {
+                "@Type": "Warning",
+                "DateTime": "9/19/2016 5:13:45 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "FrameworkResourceAccessor: Resource key \"CrossMeld#//$OPTION.DAT\" cannot be found for language \"de-DE\"!"
+            },
+            {
+                "@Type": "Error",
+                "DateTime": "9/19/2016 5:13:45 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "OPTION.DAT' or one of its dependencies. The system cannot find the file specified. (FileNotFoundException)\r\nFusionLog=\"WRN: Assembly binding logging is turned OFF.\r\nTo enable assembly bind failure logging, set the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog] (DWORD) to 1.\r\nNote: There is some performance penalty associated with assembly bind failure logging.\r\nTo turn this feature off, remove the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog].\"\r\nSource=\"mscorlib\"\r\n"
+            },
+            {
+                "@Type": "Warning",
+                "DateTime": "9/19/2016 5:13:44 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "FrameworkResourceAccessor: Resource key \"CrossMeld#//$OPTION.DAT\" cannot be found for language \"de-DE\"!"
+            },
+            {
+                "@Type": "Error",
+                "DateTime": "9/19/2016 5:13:44 PM",
+                "Source": "SmartHMI.Resources",
+                "Data": "OPTION.DAT' or one of its dependencies. The system cannot find the file specified. (FileNotFoundException)\r\nFusionLog=\"WRN: Assembly binding logging is turned OFF.\r\nTo enable assembly bind failure logging, set the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog] (DWORD) to 1.\r\nNote: There is some performance penalty associated with assembly bind failure logging.\r\nTo turn this feature off, remove the registry value [HKLM\\Software\\Microsoft\\Fusion!EnableLog].\"\r\nSource=\"mscorlib\"\r\n"
+            }
+        ]
+    },
+    "EventLogsSystem": null,
+    "EventLogsUser": null,
+    "EventLogsProgram": null,
+    "TimeStamp": "1474298032779"
+}
