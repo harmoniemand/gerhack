@@ -5,15 +5,15 @@ var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
-io.on('connect', function (socket) {
+io.on('connection', function (socket) {
     console.log("connected");
+    socket.on('disconnect', function (socket) {
+        console.log("disconnected");
+    });
 });
 
-io.on('disconnect', function (socket) {
-    console.log("disconnected");
-});
 
-app.post('/:axis/:degree', function (req, res) {
+app.post('/:robot/:axis/:degree', function (req, res) {
     console.log(req.params);
     io.emit('move', {
         Name: "robot",
