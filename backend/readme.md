@@ -1,0 +1,1 @@
+Backend bietet API an und kommuniziert über WebSocket mit Frontend
