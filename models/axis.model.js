@@ -3,6 +3,7 @@ module.exports = {
     RobInMove: "boolean",
     Runtime: "int",
     Timestamp: "int",
+    ArrivalTime: "int",
     AxisAct: {
     	// Speed in Degrees/Second. Negative for reverse.
         A1: "double",
