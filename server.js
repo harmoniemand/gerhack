@@ -236,6 +236,8 @@ app.get('/states', function (req, res) {
     res.json(currentState);
 });
 
-http.listen(3000, function () {
-    console.log("listening on 3000");
+var port = process.env.PORT || 8080;
+
+http.listen(port, function () {
+    console.log("listening on " + port);
 });
