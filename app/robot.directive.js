@@ -47,7 +47,7 @@ angular.module('robotApp')
                         scope.robot.tasks.pop();
                         scope.robot.tasks = scope.robot.tasks.reverse();
                     }
-                }, 1000);
+                }, 500);
 
                 scope.$on('move', function (event, msg) {
                     console.log('message: ' + JSON.stringify(msg));

@@ -1,7 +1,8 @@
 
 angular.module('robotApp', [
     'btford.socket-io',
-    'ngMaterial'
+    'ngMaterial',
+    'ngAnimate'
 ]).run(function ($rootScope, socketFactory) {
     $rootScope.socket = socketFactory();
 

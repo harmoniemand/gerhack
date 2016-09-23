@@ -1,3 +1,8 @@
+<div style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: rgb(230,230,230);" layout layout-align="center center"
+    ng-show="robots.length == 0" class="fade">
+    <img src="/splash.png" />
+</div>
+
 <md-whiteframe class="md-whiteframe-1dp" flex-sm="45" flex-gt-sm="35" flex-gt-md="25" layout layout-align="center center"
     layout-margin ng-repeat="robot in robots">
     <robot data="robot" flex></robot>
