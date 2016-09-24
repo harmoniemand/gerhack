@@ -1,0 +1,68 @@
+<div flex layout="column" layout-align="center stretch" style="max-height:90vh">
+    <div flex="50">
+        <md-input-container flex>
+            <label>Robotname</label>
+            <input ng-model="robot.name" readonly>
+        </md-input-container>
+
+        <md-input-container flex>
+            <label>Robot in move</label>
+            <input ng-model="robot.inMove" readonly>
+        </md-input-container>
+
+        <div layout="row" layout-wrap layout-align="space-around stretch" flex>
+            <div flex="33" layout="column" layout-align="center center">
+                <md-progress-circular md-mode="determinate" value="{{robot ? robot.axis[0].angle : 0}}"></md-progress-circular>
+                <div>A1</div>
+                <div>{{robot ? robot.axis[0].angle : 0}}</div>
+            </div>
+            <div flex="33" layout="column" layout-align="center center">
+                <md-progress-circular md-mode="determinate" value="{{robot ? robot.axis[1].angle : 0}}"></md-progress-circular>
+                <div>A2</div>
+                <div>{{robot ? robot.axis[1].angle : 0}}</div>
+            </div>
+            <div flex="33" layout="column" layout-align="center center">
+                <md-progress-circular md-mode="determinate" value="{{robot ? robot.axis[2].angle : 0}}"></md-progress-circular>
+                <div>A3</div>
+                <div>{{robot ? robot.axis[2].angle : 0}}</div>
+            </div>
+            <div flex="100" layout="column" layout-margin>
+                <md-progress-linear md-mode="determinate" value="{{robot ? robot.axis[3].angle : 0}}"></md-progress-linear>
+                <div>A4</div>
+                <div>{{robot ? robot.axis[3].angle : 0}}</div>
+            </div>
+            <div flex layout="column" layout-align="center center">
+                <md-progress-circular md-mode="determinate" value="{{robot ? robot.axis[4].angle : 0}}"></md-progress-circular>
+                <div>A5</div>
+                <div>{{robot ? robot.axis[4].angle : 0}}</div>
+            </div>
+            <div flex layout="column" layout-align="center center">
+                <md-progress-circular md-mode="determinate" value="{{robot ? robot.axis[5].angle : 0}}"></md-progress-circular>
+                <div>A6</div>
+                <div>{{robot ? robot.axis[5].angle : 0}}</div>
+            </div>
+        </div>
+    </div>
+    <md-content flex>
+        <md-list>
+            <md-subheader class="md-no-sticky" ng-if="robot.currentTask != null">Current task</md-subheader>
+            <md-list-item class="md-3-line" ng-if="robot.currentTask != null">
+                <div class="md-list-item-text">
+                    <h3>{{robot.currentTask.receivedAt}}</h3>
+                    <p>{{'A1: ' + robot.currentTask.axis[0].velocity + ', A2: ' + robot.currentTask.axis[1].velocity + ', A3: ' + robot.currentTask.axis[2].velocity}}</p>
+                    <p>{{'A4: ' + robot.currentTask.axis[3].velocity + ', A5: ' + robot.currentTask.axis[4].velocity + ', A6: ' + robot.currentTask.axis[5].velocity}}</p>
+                </div>
+            </md-list-item>
+
+
+            <md-subheader class="md-no-sticky" ng-if="robot.tasks.length > 0">Tasks in Queue</md-subheader>
+            <md-list-item class="md-3-line" ng-repeat="task in robot.tasks" ng-if="robot.tasks.length > 0">
+                <div class="md-list-item-text">
+                    <h3>{{task.receivedAt}}</h3>
+                    <p>{{'A1: ' + task.axis[0].velocity + ', A2: ' + task.axis[1].velocity + ', A3: ' + task.axis[2].velocity}}</p>
+                    <p>{{'A4: ' + task.axis[3].velocity + ', A5: ' + task.axis[4].velocity + ', A6: ' + task.axis[5].velocity}}</p>
+                </div>
+            </md-list-item>
+        </md-list>
+    </md-content>
+</div>
