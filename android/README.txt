@@ -1,0 +1,2 @@
+Important: keys in strings.xml müssen passen + base-URL (hier: "http://....:8080") in analyzer-class auch entsprechend anpassen. 
+Eigentliches Android Projekt ist "SpeechRecoExample" in "sample" Ordner.
